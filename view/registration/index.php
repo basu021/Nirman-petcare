@@ -1,3 +1,43 @@
+<?php
+
+if (isset($_POST['register'])) {
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $mobile = mysqli_real_escape_string($conn, $_POST['mobile']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']);
+    $confirm_password = mysqli_real_escape_string($conn, $_POST['confirm_password']);
+    $terms = isset($_POST['terms']);
+
+    // Validate email format
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        die("Invalid email format");
+    }
+
+    // Validate mobile number format
+    if (!preg_match("/^\d{10}$/", $mobile)) {
+        die("Invalid mobile number format");
+    }
+
+    // Validate password and confirm password match
+    if ($password !== $confirm_password) {
+        die("Passwords do not match");
+    }
+
+    // Hash password using PHP's password_hash() function
+    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+    // Insert user data into user table
+    $query = "INSERT INTO user (name, email, mobile, password) VALUES ('$name', '$email', '$mobile', '$hashed_password')";
+    $result = mysqli_query($conn, $query);
+    if ($result) {
+        echo "User registered successfully";
+    } else {
+        echo "Error: " . mysqli_error($conn);
+    }
+}
+
+mysqli_close($conn);
+?>
 
 <?php include "../header/Header.php"; ?>
 
@@ -55,7 +95,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <a class="btn btn-primary w-100" href="my-account.html">Register</a>
+                                        <a class="btn btn-primary w-100" type="submit" name="submit">Register</a>
                                         <p class="register-now mt-5">Have an Account! <a href="../login/index.php">Login</a></p>
                                     </div>
                                 </form>
