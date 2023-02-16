@@ -83,7 +83,7 @@
 
                             <!--== Start Contact Form ==-->
                             <div class="contact-form">
-                                <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php" method="POST">
+                                <form id="contact-form" action="contact.php" method="POST">
                                     <div class="form-group mb-3 mb-xl-4">
                                         <input class="form-control" type="text" name="con_name" placeholder="Name:">
                                     </div>
@@ -97,7 +97,7 @@
                                         <textarea class="form-control" name="con_message" placeholder="Message:"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button class="contact-form-btn btn btn-primary btn-icon-right" type="submit"><span>Submit</span> <i class="icofont-double-right icon"></i></button>
+                                        <button class="contact-form-btn btn btn-primary btn-icon-right" type="submit" name="submit"><span>Submit</span> <i class="icofont-double-right icon"></i></button>
                                     </div>
                                 </form>
 

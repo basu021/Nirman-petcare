@@ -309,12 +309,12 @@
                 </div>
                 <!--== End: Section Title ==-->
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-12">
                         <div class="swiper testimonial-slider-container testi-border mb-0 mb-lg-n2">
-                            <div class="swiper-wrapper">
+                            <div class="swiper-wrapper"> -->
                                 <!--== Start: Testimonial Title ==-->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item bg-white">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
@@ -323,11 +323,11 @@
                                             <h5 class="title">CEO, of Kristal Bank</h5>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!--== End: Testimonial Title ==-->
 
                                 <!--== Start: Testimonial Title ==-->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item bg-white">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
@@ -336,11 +336,11 @@
                                             <h5 class="title">CEO, of Kristal Bank</h5>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!--== End: Testimonial Title ==-->
 
                                 <!--== Start: Testimonial Title ==-->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item bg-white">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
@@ -349,9 +349,9 @@
                                             <h5 class="title">CEO, of Kristal Bank</h5>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!--== End: Testimonial Title ==-->
-                            </div>
+                            <!-- </div>
                         </div>
                         <div class="testimonial-swiper-pagination text-center d-none mt-10 mb-n2"></div>
                     </div>
@@ -360,29 +360,29 @@
             <div class="section-pattern-img section-pattern-img-style4">
                 <img src="../assets/images/shape/4.png" width="318" height="291" alt="Image">
             </div>
-        </div>
+        </div> -->
         <!--== End: Testimonial Section Wrapper ==-->
 
         <!--== Start: News Post Section Wrapper ==-->
-        <div class="blog-post-section section section-padding">
+        <!-- <div class="blog-post-section section section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 text-center text-sm-start">
+                    <div class="col-sm-6 text-center text-sm-start"> -->
                         <!--== Start: Section Title ==-->
-                        <div class="section-title mt-n1">
+                        <!-- <div class="section-title mt-n1">
                             <h2 class="sub-title">BLOG POST</h2>
                             <h2 class="title mb-n3">Latest News</h2>
-                        </div>
+                        </div> -->
                         <!--== End: Section Title ==-->
-                    </div>
+                    <!-- </div>
                     <div class="col-sm-6 mb-10 mb-sm-0 mt-0 mt-sm-2 mt-xl-4 text-center text-sm-end">
                         <a class="btn-link" href="blog.html">Other’s Blog Post <i class="icofont-double-right icon"></i></a>
                     </div>
                 </div>
 
-                <div class="row row-gutter-60 mb-n6">
+                <div class="row row-gutter-60 mb-n6"> -->
                     <!--== Start: News Post Item ==-->
-                    <div class="col-md-6 mb-6">
+                    <!-- <div class="col-md-6 mb-6">
                         <div class="post-item">
                             <a href="blog-details.html" class="image">
                                 <img src="../assets/images/blog/image-1.jpg" width="475" height="475" alt="News Post Image">
@@ -401,11 +401,11 @@
                                 <p>Lorem Ipsum is simply dummy textes of them printing and typesetting industry standard</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--== End: News Post Item ==-->
 
                     <!--== Start: News Post Item ==-->
-                    <div class="col-md-6 mb-6">
+                    <!-- <div class="col-md-6 mb-6">
                         <div class="post-item">
                             <a href="blog-details.html" class="image">
                                 <img src="../assets/images/blog/image-2.jpg" width="475" height="475" alt="News Post Image">
@@ -424,7 +424,7 @@
                                 <p>Lorem Ipsum is simply dummy textes of them printing and typesetting industry standard</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--== End: News Post Item ==-->
                 </div>
             </div>
