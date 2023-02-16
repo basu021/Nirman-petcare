@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="col-auto d-flex align-items-center gap-6 gap-lg-0">
-                <a class="btn btn-primary header-donate-btn" href="donate.html">Donate Now</a>
+                <a class="btn btn-primary header-donate-btn" href="../donation/index.php">Donate Now</a>
                 <button class="btn-menu d-flex d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
                         <span></span>
                         <span></span>
