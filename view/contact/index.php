@@ -29,19 +29,19 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="contact-details-info-item">
-                                    <h3 class="title">Head Quater:</h3>
+                                    <h3 class="title">Head Quarter:</h3>
                                     <ul class="contact-details-info">
                                         <li>
                                             <i class="icofont-ui-call"></i>
-                                            <a href="tel://5123602763">(512) 360-2763</a>
+                                            <a href="tel://5123602763">+917798789898</a>
                                         </li>
                                         <li>
                                             <i class="icofont-envelope-open"></i>
-                                            <a href="mailto://support@gamil.com">support@gamil.com</a>
+                                            <a href="mailto://support@gamil.com">contact@petcare.com</a>
                                         </li>
                                         <li>
                                             <i class="icofont-location-pin"></i>
-                                            <p>(303) 420-8143 Arvada, Colorado(CO)</p>
+                                            <p>Jaydev Vihar, Lane Number 3, Jayadev Vihar, Bhubaneswar, Odisha</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -52,15 +52,15 @@
                                     <ul class="contact-details-info">
                                         <li>
                                             <i class="icofont-ui-call"></i>
-                                            <a href="tel://5123602763">(512) 360-2763</a>
+                                            <a href="tel://+917798789897">+917798789897</a>
                                         </li>
                                         <li>
                                             <i class="icofont-envelope-open"></i>
-                                            <a href="mailto://support@gamil.com">support@gamil.com</a>
+                                            <a href="mailto://contact@petcare.com">contact@petcare.com</a>
                                         </li>
                                         <li>
                                             <i class="icofont-location-pin"></i>
-                                            <p>(303) 420-8143 Arvada, Colorado(CO)</p>
+                                            <p>Technology Corridor, Infocity, Chandrasekharpur, Bhubaneswar, Odisha 751024</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -77,9 +77,8 @@
                         <div class="col-lg-6">
                             <!--== Start: Section Title ==-->
                             <div class="section-title contact-section-title mt-n3 mb-8 mb-xl-10 pb-4">
-                                <h2 class="title">Get In Touch</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry page when looking</p>
-                                <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
+                                <h2 class="title">Get In Touch With Us</h2>
+                                
                             </div>
                             <!--== End: Section Title ==-->
 
@@ -99,7 +98,7 @@
                                         <textarea class="form-control" name="con_message" placeholder="Message:"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button class="contact-form-btn btn btn-primary btn-icon-right" type="submit"><span>Send Now</span> <i class="icofont-double-right icon"></i></button>
+                                        <button class="contact-form-btn btn btn-primary btn-icon-right" type="submit"><span>Submit</span> <i class="icofont-double-right icon"></i></button>
                                     </div>
                                 </form>
 
@@ -112,7 +111,7 @@
                 </div>
 
                 <div class="contact-form-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d802879.9165497769!2d144.83475730949783!3d-38.180874157285366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sbd!4v1636803638401!5m2!1sen!2sbd"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.028025203342!2d85.80609431492121!3d20.34046088637531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190902b2a59ce5%3A0xdfb554a4e0bafffb!2sTrident%20Academy%20of%20Technology!5e0!3m2!1sen!2sin!4v1676570918019!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <!--== End: Contact Section Wrapper ==-->

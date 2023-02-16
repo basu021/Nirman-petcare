@@ -36,7 +36,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 footer-widget-nav2">
-                                        <h4 class="footer-widget-title">Qtuick Links</h4>
+                                        <h4 class="footer-widget-title">Quick Links</h4>
                                         <h4 class="collapsed-title collapsed mt-2" data-bs-toggle="collapse" data-bs-target="#dividerId-2" aria-expanded="false">Qtuick Links</h4>
                                         <div id="dividerId-2" class="widget-collapse-body collapse">
                                             <ul class="footer-widget-nav">
@@ -61,15 +61,15 @@
                                     <ul class="footer-widget-info">
                                         <li>
                                             <i class="icofont-ui-call"></i>
-                                            <a href="tel://5123602763">(512) 360-2763</a>
+                                            <a href="tel://+917798789898">+917798789898</a>
                                         </li>
                                         <li>
                                             <i class="icofont-envelope-open"></i>
-                                            <a href="mailto://support@gamil.com">support@gamil.com</a>
+                                            <a href="mailto://contact@petcare.com">contact@petcare.com</a>
                                         </li>
                                         <li>
                                             <i class="icofont-location-pin"></i>
-                                            <p>(303) 420-8143 Arvada, Colorado(CO)</p>
+                                            <p>Technology Corridor, Infocity, Bhubaneswar, Odisha</p>
                                         </li>
                                     </ul>
                                 </div>

@@ -386,27 +386,6 @@
                         </div>
                     </div>
                     <!--== End: Event Title ==-->
-
-                    <!--== Start: Event Title ==-->
-                    <div class="col-12 mb-6">
-                        <div class="event-item alt ">
-                            <a href="event-details.html" class="image">
-                                <img src="../assets/images/event/event-2.jpg" width="350" height="315" alt="Fund raising for save bird.">
-                            </a>
-                            <div class="content">
-                                <div class="details">
-                                    <span class="location"><span>Venue:</span> Smithville, Texas(TX), 78957</span>
-                                    <h4 class="title"><a href="event-details.html">Fund raising for save bird.</a></h4>
-                                    <p>That neces ecommerce platform optime your store ecommerce platform</p>
-                                    <span class="date"><span>Date:</span> 30 February, 2021</span>
-                                </div>
-                                <div class="button">
-                                    <a class="btn btn-primary btn-icon-right btn-lg" href="event-details.html"><span>Join Now</span> <i class="icofont-double-right icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--== End: Event Title ==-->
                 </div>
             </div>
         </div>
