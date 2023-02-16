@@ -7,21 +7,24 @@
     <?php include "../header/HeaderMenus.php";?>                      
         <main class="main-content">
             <!--== Start: Page Header Area Wrapper ==-->
-            <div class="section page-header-area" data-bg-img="../assets/images/photos/bg30.jpg">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-sm-auto text-center text-sm-start">
-                            <h1 class="page-header-title">Services</h1>
-                        </div>
-                        <div class="col-sm-auto">
-                            <ol class="breadcrumb mb-0 justify-content-center mt-3 mt-sm-0">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Services</li>
-                            </ol>
-                        </div>
+        
+    <main class="main-content">
+        <!--== Start: Page Header Area Wrapper ==-->
+        <div class="section page-header-area" data-bg-img="../assets/images/photos/bg3.jpg">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-sm-auto text-center text-sm-start">
+                        <h1 class="page-header-title">About Us</h1>
+                    </div>
+                    <div class="col-sm-auto">
+                        <ol class="breadcrumb mb-0 justify-content-center mt-3 mt-sm-0">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                        </ol>
                     </div>
                 </div>
             </div>
+        </div>
             <!--== End: Page Header Area Wrapper ==-->
 
 
