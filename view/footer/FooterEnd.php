@@ -3,7 +3,7 @@
                 <div class="container">
                     <div class="row flex-row-reverse flex-md-row">
                         <div class="col-md-6 text-center text-md-start">
-                            <p class="footer-copyright">© 2022 Petcare. Made with <i class="icofont-heart"></i> by <a target="_blank" href="">PetCare</a></p>
+                            <p class="footer-copyright">© 2023 Petcare. Made with <i class="icofont-heart"></i> by <a target="_blank" href="">PetCare</a></p>
                         </div>
                         <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
                             <p class="footer-payment-info">Payment System: <a href="my-account.html"><img src="../assets/images/photos/payment-card.png" width="147" height="31" alt="Image"></a></p>
