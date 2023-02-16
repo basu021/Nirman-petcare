@@ -30,4 +30,5 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="../assets/css/style.min.css">
+    
     <body>

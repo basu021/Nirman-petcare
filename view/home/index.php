@@ -200,9 +200,135 @@ and pet owners to connect, and share information, and resources.</p>
             </div>
             <div class="section-bg-img section-bg-img-style2" data-bg-img="../assets/images/photos/bg1.jpg"></div>
         </div>
+<<<<<<< HEAD
     </div>
  </div>
 
+=======
+        
+        <!--== Start: Testimonial Section Wrapper ==-->
+        <div class="testimonial-section section section-padding-t bg-light">
+            <div class="container">
+                <!--== Start: Section Title ==-->
+                <div class="section-title center mt-n3">
+                    <h2 class="title">Happy Donor’s</h2>
+                    <p>Protect, rescue, adopt, repeat.</p>
+                    <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
+                </div>
+                <!--== End: Section Title ==-->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper testimonial-slider-container bg-grey testi-border">
+                            <div class="swiper-wrapper">
+                                <!--== Start: Testimonial Title ==-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item bg-grey">
+                                        <div class="inner">
+                                            <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
+                                            <p>"The greatness of a nation and its moral progress can be judged by the way its animals are treated." </p>
+                                            <h4 class="name">Mahadma Gandhi</h4>
+                                            <h5 class="title"></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--== End: Testimonial Title ==-->
+
+                                <!--== Start: Testimonial Title ==-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item bg-grey">
+                                        <div class="inner">
+                                            <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
+                                            <p>"No animal deserves having its name misused to insult a human being with it."</p>
+                                            <h4 class="name">Ernst R. Hauschka</h4>
+                                            <h5 class="title"></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--== End: Testimonial Title ==-->
+
+                                <!--== Start: Testimonial Title ==-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item bg-grey">
+                                        <div class="inner">
+                                            <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
+                                            <p>"Animal protection is education to humanity." </p>
+                                            <h4 class="name">Albert Schweitzer</h4>
+                                            <h5 class="title"></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--== End: Testimonial Title ==-->
+
+                                
+
+        <!--== Start: News Post Section Wrapper ==-->
+        <!-- <div class="blog-post-section section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 text-center text-sm-start"> -->
+                        <!--== Start: Section Title ==-->
+                        <!-- <div class="section-title mt-n1">
+                            <h2 class="sub-title">BLOG POST</h2>
+                            <h2 class="title mb-n3">Latest News</h2>
+                        </div> -->
+                        <!--== End: Section Title ==-->
+                    <!-- </div>
+                    <div class="col-sm-6 mb-10 mb-sm-0 mt-0 mt-sm-2 mt-xl-4 text-center text-sm-end">
+                        <a class="btn-link" href="blog.html">Other’s Blog Post <i class="icofont-double-right icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="row row-gutter-60 mb-n6"> -->
+                    <!--== Start: News Post Item ==-->
+                    <!-- <div class="col-md-6 mb-6">
+                        <div class="post-item">
+                            <a href="blog-details.html" class="image">
+                                <img src="../assets/images/blog/image-1.jpg" width="475" height="475" alt="News Post Image">
+                            </a>
+                            <div class="content">
+                                <ul class="post-meta">
+                                    <li class="post-date"><span>Date:</span> 30 February, 2021</li>
+                                    <li class="post-info">
+                                        <ul class="d-flex">
+                                            <li class="post-comment"><span>Comment:</span> 8,962</li>
+                                            <li class="post-like ms-5"><span>Like:</span> 78K</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <h4 class="title"><a href="blog-details.html">Best 58 charity article of 2021</a></h4>
+                                <p>Lorem Ipsum is simply dummy textes of them printing and typesetting industry standard</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!--== End: News Post Item ==-->
+
+                    <!--== Start: News Post Item ==-->
+                    <!-- <div class="col-md-6 mb-6">
+                        <div class="post-item">
+                            <a href="blog-details.html" class="image">
+                                <img src="../assets/images/blog/image-2.jpg" width="475" height="475" alt="News Post Image">
+                            </a>
+                            <div class="content">
+                                <ul class="post-meta">
+                                    <li class="post-date"><span>Date:</span> 30 February, 2021</li>
+                                    <li class="post-info">
+                                        <ul class="d-flex">
+                                            <li class="post-comment"><span>Comment:</span> 8,962</li>
+                                            <li class="post-like ms-5"><span>Like:</span> 78K</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <h4 class="title"><a href="blog-details.html">Marcus rashford’s food poverty</a></h4>
+                                <p>Lorem Ipsum is simply dummy textes of them printing and typesetting industry standard</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!--== End: News Post Item ==-->
+                </div>
+            </div>
+        </div>
+>>>>>>> 0ca389c652f3e462c3e31a2668dea60f447e09dc
         <!--== End: News Post Section Wrapper ==-->
 
         <!--== Start: Divider Section Wrapper ==-->
