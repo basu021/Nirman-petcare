@@ -16,6 +16,7 @@
                         </li>
                         <li><a href="../contact/index.php">Contact</a></li>
                         <li><a href="../login/index.php">Sign in</a></li>
+                        <li><a href="../Services/index.php">Services</a></li>
                     </ul>
                 </div>
             </div>

@@ -51,12 +51,12 @@
                                     <div class="form-group account-info-group mb-5">
                                         <div class="rememberme-account d-flex align-items-center">
                                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                            <label class="form-check-label" for="defaultCheck1">Aaccept our terms and conditions and privacy policy.</label>
+                                            <label class="form-check-label" for="defaultCheck1">Accept to terms and conditions.</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <a class="btn btn-primary w-100" href="my-account.html">Register</a>
-                                        <p class="register-now mt-5">Don't you have an account? <a href="../login/index.php">Login</a></p>
+                                        <p class="register-now mt-5">Have an Account! <a href="../login/index.php">Login</a></p>
                                     </div>
                                 </form>
                             </div>
