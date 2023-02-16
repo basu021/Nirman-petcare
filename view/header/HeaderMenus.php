@@ -3,7 +3,7 @@
         <div class="row justify-content-between align-items-center">
             <div class="col-auto">
                 <div class="header-logo">
-                    <a href="index.html">
+                    <a href="../home/index.php">
                         <img class="logo-main" src="../assets/images/logo.png" width="178" height="58" alt="Logo" />
                     </a>
                 </div>
@@ -15,6 +15,7 @@
                         <li><a href="../about/index.php">About</a></li>
                         </li>
                         <li><a href="../contact/index.php">Contact</a></li>
+                        <li><a href="../login/index.php">Sign in</a></li>
                     </ul>
                 </div>
             </div>

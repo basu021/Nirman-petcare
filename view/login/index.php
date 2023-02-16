@@ -49,7 +49,7 @@
                                     </div>
                                     <div class="form-group">
                                         <a class="btn btn-primary w-100" href="my-account.html">Login</a>
-                                        <p class="register-now mt-5">Don't you have an account? <a href="account-register.html">Register</a></p>
+                                        <p class="register-now mt-5">Don't you have an account? <a href="../registration/index.php">Register</a></p>
                                     </div>
                                 </form>
                             </div>
