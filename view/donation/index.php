@@ -7,7 +7,7 @@
 
         <main class="main-content">
             <!--== Start: Page Header Area Wrapper ==-->
-            <div class="section page-header-area" data-bg-img=assets/images/photos/bg3.jpg">
+            <div class="section page-header-area" data-bg-img="../assets/images/photos/bg3.jpg">
                 <div class="container">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-sm-auto text-center text-sm-start">
@@ -64,12 +64,12 @@
                                 <div class="donation-form-payment">
                                     <h4 class="donation-form-title mb-3 mb-md-0">Make a donation:</h4>
                                     <div class="donation-form-payment-card">
-                                        <a class="donation-form-payment-card-item" href="donate.html"><img src=assets/images/icons/paypal.png" width="44" height="31" alt="Image"></a>
-                                        <a class="donation-form-payment-card-item" href="donate.html"><img src=assets/images/icons/visa.png" width="44" height="31" alt="Image"></a>
-                                        <a class="donation-form-payment-card-item" href="donate.html"><img src=assets/images/icons/master-card.png" width="44" height="31" alt="Image"></a>
-                                        <a class="donation-form-payment-card-item" href="donate.html"><img src=assets/images/icons/paypal.png" width="44" height="31" alt="Image"></a>
-                                        <a class="donation-form-payment-card-item" href="donate.html"><img src=assets/images/icons/visa.png" width="44" height="31" alt="Image"></a>
-                                        <a class="donation-form-payment-card-item" href="donate.html"><img src=assets/images/icons/master-card.png" width="44" height="31" alt="Image"></a>
+                                        <a class="donation-form-payment-card-item" href="donate.html"><img src="../assets/images/icons/paypal.png" width="44" height="31" alt="Image"></a>
+                                        <a class="donation-form-payment-card-item" href="donate.html"><img src="../assets/images/icons/visa.png" width="44" height="31" alt="Image"></a>
+                                        <a class="donation-form-payment-card-item" href="donate.html"><img src="../assets/images/icons/master-card.png" width="44" height="31" alt="Image"></a>
+                                        <a class="donation-form-payment-card-item" href="donate.html"><img src="../assets/images/icons/paypal.png" width="44" height="31" alt="Image"></a>
+                                        <a class="donation-form-payment-card-item" href="donate.html"><img src="../assets/images/icons/visa.png" width="44" height="31" alt="Image"></a>
+                                        <a class="donation-form-payment-card-item" href="donate.html"><img src="../assets/images/icons/master-card.png" width="44" height="31" alt="Image"></a>
                                     </div>
                                 </div>
                                 <!--== End: Donation Payment Form ==-->
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="section-pattern-img section-pattern-img-style6">
-                    <img src=assets/images/shape/6.png" width="131" height="168" alt="Image">
+                    <img src="../assets/images/shape/6.png" width="131" height="168" alt="Image">
                 </div>
             </div>
             <!--== End: Divider Section Wrapper ==-->
