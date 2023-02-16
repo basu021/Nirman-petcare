@@ -11,10 +11,10 @@
             <div class="col-auto d-none d-lg-block">
                 <div class="header-navigation">
                     <ul class="main-nav justify-content-center">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="../home/index.php">Home</a></li>
+                        <li><a href="../about/index.php">About</a></li>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../contact/index.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
