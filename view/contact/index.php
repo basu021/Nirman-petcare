@@ -114,7 +114,7 @@ mysqli_close($conn);
                                         <input class="form-control" type="text" name="con_name" placeholder="Name:">
                                     </div>
                                     <div class="form-group mb-3 mb-xl-4">
-                                        <input class="form-control" type="text" name="con_phone" placeholder="Phone:">
+                                        <input class="form-control" type="tel" name="con_phone" placeholder="Phone:">
                                     </div>
                                     <div class="form-group mb-3 mb-xl-4">
                                         <input class="form-control" type="email" name="con_email" placeholder="Email:">
@@ -123,7 +123,7 @@ mysqli_close($conn);
                                         <textarea class="form-control" name="con_message" placeholder="Message:"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button class="btn btn-primary btn-icon-right" type="submit" name="submit"><!--span>Submit</span-->Submit</button>
+                                        <button class="btn btn-primary btn-icon-right" type="submit" name="submit">Submit</button>
                                     </div>
                                 </form>
 
