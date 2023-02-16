@@ -22,7 +22,6 @@
                 </div>
             </div>
             <!--== End: Page Header Area Wrapper ==-->
-
             <div class="contact-info section section-padding">
                 <div class="container">
                     <div class="contact-details-info-wrap">
