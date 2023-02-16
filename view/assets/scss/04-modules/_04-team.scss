@@ -1,0 +1,135 @@
+/*----------------------------------------*/
+/*  Team CSS
+/*----------------------------------------*/
+
+.team-container-fluid {
+    max-width: 1577px;
+}
+
+.team-item-wrap {
+    padding-right: 174px;
+    @media #{$laptop-device} {
+        padding-right: 56px;
+        padding-left: 40px;
+    }
+    @media #{$desktop-device} {
+        padding-right: 46px;
+        padding-left: 30px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+.team-content-wrap {
+    padding-left: 114px;
+    @media #{$laptop-device} {
+        padding-left: 24px;
+    }
+    @media #{$desktop-device} {
+        padding-left: 14px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+        padding: 60px 30px 0;
+    }
+}
+
+.team-item {
+    position: relative;
+    & .image {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        display: block;
+        &::after {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+
+            content: "";
+            transition: $transition-base;
+
+            opacity: 0;
+            background-color: rgba($primary, 0.94);
+        }
+        & img {
+            width: 100%;
+
+            transition: $transition-base;
+        }
+    }
+    & .content {
+        position: absolute;
+        z-index: 3;
+        bottom: 35px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+        & .name {
+            font-size: 27px;
+            font-weight: 500;
+            line-height: 1;
+
+            margin-bottom: 19px;
+
+            transition: $transition-base;
+            transform: translateY(-6px);
+            text-transform: capitalize;
+
+            opacity: 0;
+            color: $white;
+            @media #{$laptop-device, $desktop-device, $large-mobile} {
+                font-size: 18px;
+                margin-bottom: 12px;
+            }
+        }
+        & .title {
+            font-size: 16px;
+            line-height: 1;
+
+            display: block;
+
+            margin: 0;
+
+            transition: $transition-base;
+            transform: translateY(6px);
+
+            opacity: 0;
+            color: $white;
+            @media #{$laptop-device, $desktop-device, $large-mobile} {
+                font-size: 13px;
+            }
+        }
+    }
+    &:hover {
+        & .image {
+            &::after {
+                opacity: 1;
+            }
+
+            & img {
+                @include scale(1.05);
+            }
+        }
+        & .content {
+            & .name {
+                transform: translateY(0);
+
+                opacity: 1;
+            }
+            & .title {
+                transform: translateY(0);
+
+                opacity: 1;
+            }
+        }
+    }
+}

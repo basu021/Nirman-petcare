@@ -1,0 +1,87 @@
+/*----------------------------------------*/
+/*  Mixin CSS
+/*----------------------------------------*/
+
+// Placeholder
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		@content;
+	}
+
+	&::-moz-placeholder {
+		@content;
+	}
+
+	&:-ms-input-placeholder {
+		@content;
+	}
+}
+
+// animation
+@mixin animation($x) {
+  animation: $x;
+  -webkit-animation: $x;
+  -moz-animation: $x;
+  -ms-animation: $x;
+  -o-animation: $x;
+}
+
+// Transition
+@mixin transition($x){
+  transition: $x;
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  -ms-transition: $x;
+  -o-transition: $x;
+}
+
+// Generic Transform
+@mixin transform($x) {
+  transform: $x;
+  -webkit-transform: $x;
+  -moz-transform: $x;
+  -ms-transform: $x;
+  -o-transform: $x;
+}
+
+// Transform Rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// Transform Scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+// Transform Translate
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
+}
+
+// Transform Skew
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+// Transform Origin
+@mixin transform-origin($x) {
+  transform-origin: $x;
+  -webkit-transform-origin: $x;
+  -moz-transform-origin: $x;
+  -ms-transform-origin: $x;
+  -o-transform-origin: $x;
+}
+
+// Transform Style
+@mixin transform-style($x) {
+  transform-style: $x;
+  -webkit-transform-style: $x;
+  -moz-transform-style: $x;
+  -ms-transform-style: $x;
+  -o-transform-style: $x;
+}

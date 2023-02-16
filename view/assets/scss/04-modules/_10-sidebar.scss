@@ -1,0 +1,247 @@
+/*----------------------------------------*/
+/*  Sidebar CSS
+/*----------------------------------------*/
+
+.sidebar-wrap {}
+
+
+.sidebar-search-widget {
+  margin-bottom: 58px;
+  @media #{$large-mobile} {
+    margin-bottom: 38px;
+  }
+  
+  & form {
+    position: relative;
+
+    & .form-control {
+      border: 1px solid #f6f3ee;
+      box-shadow: none;
+      outline: none;
+      border-radius: 0;
+      line-height: 65px;
+      color: #383e38;
+      font-size: 16px;
+      height: 60px;
+      padding: 5px 60px 5px 28px;
+      width: 100%;
+      transition: $transition-base;
+
+      &:active,
+      &:focus {
+        border-color: $primary;
+      }
+    }
+
+    & button {
+      background-color: $primary;
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      font-size: 15px;
+      display: inline-block;
+      color: #FFFFFF;
+      border: none;
+      top: 50%;
+      transform: translate(0px, -50%);
+      right: 6px;
+      &:hover {
+        background-color: $dark;
+      }
+    }
+  }
+}
+
+.sidebar-widget {
+  margin-bottom: 60px;
+  @media #{$large-mobile} {
+    margin-bottom: 38px;
+  }
+}
+
+.sidebar-widget-title {
+  font-size: 30px;
+  font-weight: $font-weight-bold;
+  margin-bottom: 40px;
+  @media #{$large-mobile} {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+.sidebar-widget-body {
+  background-color: #fbf9f6;
+  padding: 45px 35px 45px;
+  @media #{$large-mobile} {
+    padding: 35px 25px 35px;
+  }
+}
+
+.sidebar-category-list {
+  & li {
+    & a {
+      background-color: #fff;
+      color: #383e38;
+      display: flex;
+      font-size: 16px;
+      padding: 11px 24px 9px;
+      align-items: center;
+      justify-content: space-between;
+      @media #{$large-mobile} {
+        font-size: 14px;
+      }
+
+      &:hover {
+        background-color: $primary;
+        color: #fff;
+      }
+    }
+
+    + {
+      & li {
+        margin-top: 18px;
+        @media #{$large-mobile} {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+.sidebar-causes-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  & .image {
+    overflow: hidden;
+    display: block;
+    width: 70px;
+
+    & img {
+      transition: $transition-base;
+    }
+  }
+
+  & .content {
+    flex: 1 0;
+    padding-left: 25px;
+    @media #{$large-mobile} {
+      padding-left: 18px;
+    }
+
+    & .title {
+      color: #131b13;
+      font-size: 16px;
+      font-weight: $font-weight-medium;
+      line-height: 1.5;
+      margin-bottom: 11px;
+      max-width: 185px;
+      @media #{$large-mobile} {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+
+      & a {
+        color: #131b13;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+    & .causes-goal {
+      color: $primary;
+      font-size: 14px;
+      font-weight: $font-weight-medium;
+      margin-bottom: 0;
+      @media #{$large-mobile} {
+        font-size: 12px;
+      }
+    }
+  }
+
+  + {
+    & .sidebar-causes-list {
+      border-top: 1px solid #f1ede7;
+      margin-top: 20px;
+      padding-top: 20px;
+    }
+  }
+
+  &:hover {
+    & .image {
+      & img {
+        @include scale(1.05);
+      }
+    }
+  }
+}
+
+.sidebar-widget-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -10px !important;
+
+  & li {
+    & a {
+      background-color: #fff;
+      color: #2c241b;
+      display: inline-block;
+      font-size: 14px;
+      text-align: center;
+      padding: 7px 20px 5px;
+      @media #{$extra-small-mobile} {
+        font-size: 13px;
+        padding: 6px 16px 4px;
+      }
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+.widget-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+
+  & a {
+    border-radius: 50%;
+    border: 1px solid #f2efe9;
+    color: #2c241b;
+    font-size: 14px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    @media #{$large-mobile} {
+      font-size: 12px;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+    }
+
+    & +  {
+      & a {
+        margin-left: 20px;
+        @media #{$large-mobile} {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &:hover {
+      background-color: $primary;
+      border-color: $primary;
+      color: $white;
+    }
+  }
+}

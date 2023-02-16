@@ -1,0 +1,637 @@
+/*----------------------------------------*/
+/*  Wrapper CSS
+/*----------------------------------------*/
+
+// Divider
+.divider-donation {
+  padding: 90px 0 84px;
+  @media #{$tablet-device, $large-mobile} {
+    padding: 60px 0 64px;
+  }
+}
+
+.divider-content {
+  & .sub-title {
+    font-size: 15px;
+    margin: 0;
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      font-size: 14px;
+    }
+    & + .title {
+      margin-top: 22px;
+      @media #{$desktop-device} {
+        margin-top: 10px;
+      }
+      @media #{$tablet-device} {
+        margin-top: 8px;
+      }
+      @media #{$large-mobile} {
+        margin-top: 6px;
+      }
+    }
+  }
+
+  & .title {
+    font-size: 46px;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0;
+    @media #{$desktop-device} {
+      font-size: 40px;
+    }
+    @media #{$tablet-device} {
+      font-size: 36px;
+    }
+    @media #{$large-mobile} {
+      font-size: 32px;
+    }
+
+    + {
+      & p {
+        margin-top: 12px;
+        @media #{$desktop-device} {
+          margin-top: 8px;
+        }
+        @media #{$tablet-device, $large-mobile} {
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  & p {
+    font-size: 18px;
+    font-weight: $font-weight-normal;
+    line-height: 1.945;
+    margin-bottom: 0;
+    max-width: 490px;
+    @media #{$desktop-device} {
+      font-size: 16px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+      margin-bottom: 28px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+  }
+}
+
+.btn {
+  background-color: $dark;
+  border-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  color: $white;
+  font-size: 18px;
+  position: relative;
+  font-weight: $font-weight-medium;
+  padding: 18px 38px 17px;
+  z-index: 1;
+  transition: $transition-base;
+  @media #{$desktop-device,} {
+    font-size: 16px;
+    padding: 10px 22px 10px;
+  }
+  @media #{$tablet-device, $large-mobile} {
+    font-size: 15px;
+    padding: 11px 22px 10px;
+  }
+
+  &.btn-primary {
+    background-color: $primary;
+    border-color: transparent;
+
+    &:before {
+      background-color: darken($primary, 10%);
+      width: 0;
+      height: 100%;
+      content: "";
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      left: 0;
+      z-index: -1;
+      transition: $transition-base;
+    }
+  }
+
+  &.btn-light {
+    color: #131b13;
+    background-color: #e9dbcd;
+
+    &:before {
+      background-color: darken(#e9dbcd, 10%);
+      width: 0;
+      height: 100%;
+      content: "";
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      left: 0;
+      z-index: -1;
+      transition: $transition-base;
+    }
+  }
+
+  &.btn-dark {
+    color: $white;
+    background-color: $dark;
+
+    &:before {
+      background-color: darken($dark, 10%);
+      width: 0;
+      height: 100%;
+      content: "";
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      left: 0;
+      z-index: -1;
+      transition: $transition-base;
+    }
+  }
+
+  &.btn-icon-right {
+    .icon {
+      font-size: 19px;
+      position: relative;
+      margin-left: 9px;
+      top: 1px;
+      @media #{$desktop-device} {
+        font-size: 17px;
+        margin-left: 4px;
+      }
+      @media #{$tablet-device, $large-mobile} {
+        font-size: 15px;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  &.btn-icon-left {
+    .icon {
+      font-size: 19px;
+      position: relative;
+      margin-right: 9px;
+      top: 1px;
+      @media #{$desktop-device} {
+        font-size: 17px;
+        margin-right: 4px;
+      }
+      @media #{$tablet-device, $large-mobile} {
+        font-size: 15px;
+        margin-right: 0px;
+      }
+    }
+  }
+
+  &.btn-lg {
+    padding: 15px 24px 12px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      padding: 10px 22px 9px;
+      font-size: 14px;
+    }
+  }
+
+  &:hover {
+    color: $white;
+
+    &.btn-primary {
+      &:before {
+        opacity: 1;
+        width: 100%;
+      }
+    }
+
+    &.btn-light {
+      color: #131b13;
+      &:before {
+        opacity: 1;
+        width: 100%;
+      }
+    }
+
+    &.btn-dark {
+      &:before {
+        opacity: 1;
+        width: 100%;
+      }
+    }
+  }
+
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-link {
+  background-image: url("../images/icons/btn-link-line.png");
+  color: $primary;
+  font-size: 18px;
+  font-weight: $font-weight-medium;
+  line-height: 1;
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-size: 170px;
+  background-position: bottom;
+  padding-bottom: 22px;
+  @media #{$desktop-device, $tablet-device, $large-mobile} {
+    font-size: 16px;
+    padding-bottom: 16px;
+    background-size: 154px;
+  }
+
+  .icon {
+    font-size: 19px;
+    margin-left: 6px;
+    position: relative;
+    top: 1px;
+  }
+
+  &:hover {
+    color: $dark;
+  }
+}
+
+.section-bg-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+  &-style1 {
+    width: calc(50% + 9px);
+    right: 0;
+    @media #{$desktop-device} {
+      width: calc(50% + 60px);
+    }
+    @media #{$tablet-device, $large-mobile} {
+      position: relative;
+      width: 100%;
+      height: 500px;
+    }
+    @media #{$large-mobile} {
+      height: 400px;
+    }
+  }
+  &-style2 {
+    width: calc(50% + 16px);
+    right: 0;
+    background-position: bottom left;
+    @media #{$tablet-device, $large-mobile} {
+      display: none;
+    }
+  }
+}
+
+.section-bg-color-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  &-style1 {
+    right: 0;
+    @media #{$extraBig-device} {
+      right: 8.85%;
+    }
+  }
+
+  &-style2 {
+    background-color: #f3eee8;
+    right: 0;
+    width: calc(50% - 400px);
+    height: calc(50% + 205px);
+    top: calc(0px - 150px);
+    bottom: auto;
+    left: auto;
+    @media #{$laptop-device} {
+      height: calc(50% + 166px);
+      top: -120px;
+    }
+    @media #{$desktop-device} {
+      height: calc(50% + 136px);
+      top: -100px;
+    }
+    @media #{$tablet-device} {
+      display: none;
+    }
+  }
+
+  &-style3 {
+    bottom: 0;
+    top: auto;
+    left: 0;
+    right: auto;
+    width: calc(50% - 350px);
+    height: 290px;
+    @media #{$tablet-device, $large-mobile} {
+      display: none;
+    }
+  }
+}
+
+.section-pattern-img {
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+
+  @media #{$laptop-device, $desktop-device, $tablet-device, $large-mobile} {
+    display: none;
+  }
+
+  &-style1 {
+    right: 15px;
+    top: -60px;
+    z-index: -1;
+    @media only screen and (min-width: 1869px) {
+      right: 317px;
+      top: 100px;
+      z-index: 1;
+    }
+  }
+
+  &-style2 {
+    top: -90px;
+    left: 30px;
+    width: 110px;
+    @media only screen and (min-width: 1760px) {
+      left: 152px;
+      top: 0;
+      width: auto;
+    }
+  }
+
+  &-style3 {
+    bottom: 130px;
+    right: 150px;
+  }
+
+  &-style4 {
+    top: 0;
+    left: 0;
+  }
+
+  &-style5 {
+    bottom: 0;
+    right: 0;
+  }
+
+  &-style6 {
+    top: 50%;
+    transform: translate(50%, -50%);
+    left: 50%;
+    margin-left: 25px;
+  }
+
+  &-style7 {
+    right: 226px;
+    top: 64px;
+  }
+}
+
+.pattern-img-zoom {
+  -webkit-animation-name: patternZoom;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-name: patternZoom;
+  -moz-animation-duration: 2.5s;
+  -moz-animation-iteration-count: infinite;
+}
+
+.pattern-img-move {
+  -webkit-animation-name: patternMove;
+  -webkit-animation-duration: 3.0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-name: patternMove;
+  -moz-animation-duration: 3.0s;
+  -moz-animation-iteration-count: infinite;
+}
+
+// Page Link
+.page-link {
+  background-color: #fbf9f6;
+  border-radius: 5px;
+  display: flex;
+  color: $dark;
+  font-size: 16px;
+  font-weight: $font-weight-semi-bold;
+  height: 58px;
+  width: 58px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: $transition-base;
+  @media #{$desktop-device, $tablet-device} {
+    font-size: 14px;
+    height: 48px;
+    width: 48px;
+  }
+  @media #{$large-mobile} {
+    height: 44px;
+    width: 44px;
+    font-size: 13px;
+  }
+
+  & span {
+    font-size: 20px;
+    @media #{$desktop-device, $tablet-device} {
+      font-size: 18px;
+    }
+    @media #{$large-mobile} {
+      font-size: 16px;
+    }
+  }
+
+  &.active {
+    background-color: $primary;
+    color: $white;
+  }
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.page-item {
+  + {
+    .page-item {
+      .page-link {
+        margin-left: 18px;
+        @media #{$desktop-device, $tablet-device} {
+          margin-left: 14px;
+        }
+        @media #{$large-mobile} {
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+}
+
+// Fancybox
+.fancybox__content {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fancybox__carousel.is-draggable .fancybox__slide,
+.fancybox__carousel.is-draggable .fancybox__slide .fancybox__content {
+  cursor: url('../images/icons/cancel-white.png'), auto;
+}
+
+.offcanvas-backdrop,
+.modal-backdrop {
+  background-color: rgba(43, 43, 43, 0.92);
+  cursor: url('../images/icons/cancel-white.png'), auto;
+  &.show {
+    opacity: 1;
+  }
+}
+
+.scroll-to-top {
+  box-shadow: 0 0 8px 1px rgb(0 0 0 / 20%);
+  bottom: -60px;
+  background-color: $primary;
+  color: $white;
+  position: fixed;
+  right: 30px;
+  display: block;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  @include transition (all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1));
+  z-index: 999;
+  @media #{$large-mobile} {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  @media #{$small-mobile} {
+    display: none;
+  }
+
+  &:hover {
+    background-color: $primary;
+  }
+
+  &.show {
+    visibility: visible;
+    opacity: .8;
+    bottom: 20px;
+    @media #{$large-mobile} {
+      bottom: 10px;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes patternZoom {
+  from {
+    -webkit-transform: scale(0.6);
+  }
+  65% {
+    -webkit-transform: scale(.8);
+  }
+  to {
+    -webkit-transform: scale(0.6);
+  }
+}
+
+@-webkit-keyframes patternZoom {
+  from {
+    -webkit-transform: scale(0.6);
+  }
+  65% {
+    -webkit-transform: scale(.8);
+  }
+  to {
+    -webkit-transform: scale(0.6);
+  }
+}
+@-moz-keyframes patternZoom {
+  from {
+    -moz-transform: scale(0.6);
+  }
+  65% {
+    -moz-transform: scale(.8);
+  }
+  to {
+    -moz-transform: scale(0.6);
+  }
+}
+@keyframes patternMove {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes patternMove {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@-moz-keyframes patternMove {
+  0% {
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    -moz-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+  100% {
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,253 @@
+/*----------------------------------------*/
+/*  Account CSS
+/*----------------------------------------*/
+
+.account-form-wrap {
+  & .title {
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 44px;
+    font-weight: $font-weight-bold;
+    margin-bottom: 40px;
+    padding-bottom: 18px;
+    text-align: center;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      font-size: 32px;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+    }
+  }
+
+  & .form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #e3e3e3;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    color: #131b13;
+    font-size: 15px;
+    height: 70px;
+    padding: 10px 30px 10px;
+    transition: $transition-base;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      height: 54px;
+    }
+
+    @include placeholder {
+      color: #131b13;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $primary;
+    }
+  }
+
+  & .form-check-input {
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid #dddddd;
+    margin: -1px 8px 0 0;
+    box-shadow: none;
+    width: 14px;
+    height: 14px;
+
+    &:checked[type=checkbox] {
+      border-color: $primary;
+    }
+  }
+
+  & .form-check-label {
+    margin: 1px 0 0 0;
+    color: #353535;
+  }
+
+  & .lost-password {
+    font-size: 14px;
+    user-select: none;
+  }
+  
+  & label {
+    color: $dark;
+    font-size: 14px;
+    margin-bottom: 8px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  & .required {
+    color: #f00;
+  }
+
+  & .register-now {
+    color: #131b13;
+    font-size: 14px;
+    text-align: center;
+
+    & > a {
+      color: $primary;
+      margin-left: 5px;
+
+      &:hover {
+        color: $dark;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  & .account-info-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// My Account Table
+.myaccount-tab-menu {
+  flex-direction: column;
+  @media #{$large-mobile} {
+    margin-bottom: 40px;
+  }
+  &.nav-tabs {
+    .nav-link {
+      background-color: transparent;
+      border: 1px solid #e5e5e5;
+      border-bottom: none;
+      border-radius: 0;
+      color: $black;
+      font-size: 15px;
+      font-weight: 500;
+      display: block;
+      padding: 10px 15px;
+      text-align: left;
+      text-transform: capitalize;
+      &:last-child {
+        border-bottom: 1px solid #e5e5e5;
+      }
+      &.active {
+        background-color: $primary;
+      }
+      &:hover,
+      &.active {
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+      } 
+    }
+  }
+}
+
+.myaccount-content {
+  border: 1px solid #eeeeee;
+  padding: 30px 30px 15px;
+  @media #{$desktop-device, $tablet-device, $large-mobile} {
+    padding: 25px 25px 10px;
+  }
+  form {
+    margin-top: -20px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    @media #{$tablet-device, $large-mobile} {
+      font-size: 18px;
+    }
+  }
+  .welcome {
+    a {
+      &:hover {
+        color: $primary;
+      }
+    }
+    strong {
+      font-weight: 500;
+      color: $primary;
+    }
+  }
+  p {
+    line-height: 28px;
+    margin-bottom: 6px;
+    @media #{$tablet-device, $large-mobile} {
+      font-size: 15px;
+    }
+  }
+  fieldset {
+    margin-top: 20px;
+    & legend {
+      font-size: 16px;
+      margin-bottom: 20px;
+      font-weight: 500;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e5e5e5;
+      @media #{$tablet-device, $large-mobile} {
+        font-size: 15px;
+      }
+    }
+  }
+  .account-details-form {
+    margin-top: 50px;
+    .single-input-item {
+      margin-bottom: 20px;
+      label {
+        font-size: 14px;
+        text-transform: capitalize;
+        display: block;
+        margin: 0 0 5px;
+      }
+      input {
+        border: 1px solid #e8e8e8;
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        color: #1f2226;
+        font-size: 13px;
+        &:focus {
+          border: 1px solid #343538;
+        }
+      }
+      button {
+        border: none;
+        background-color: $primary;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 20px 40px;
+        line-height: 1;
+        color: #fff;
+        font-size: 13px;
+        &:hover {
+          background-color: #1f2226;
+        }
+      }
+    }
+  }
+}
+
+.myaccount-table {
+  white-space: nowrap;
+  font-size: 14px;
+  table,
+  .table {
+    th {
+      padding: 10px;
+      font-weight: 500;
+      background-color: #f8f8f8;
+      border-color: #ccc;
+      border-bottom: 0;
+      color: #1f2226;
+    }
+
+    td {
+      padding: 10px;
+      vertical-align: middle;
+      border-color: #ccc;
+      a {
+        font-size: 14px;
+        color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,373 @@
+/*----------------------------------------*/
+/*  Home Slider CSS
+/*----------------------------------------*/
+
+.hero-slide-item {
+  align-items: center;
+  display: flex;
+  height: 792px;
+  position: relative;
+  z-index: 1;
+  @media #{$laptop-device} {
+    height: 655px;
+  }
+  @media #{$desktop-device} {
+    height: 545px;
+  }
+  @media #{$tablet-device} {
+    height: 470px;
+  }
+  @media #{$large-mobile} {
+    height: 420px;
+  }
+  @media #{$small-mobile} {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container-fluid {
+    max-width: 1650px;
+    padding-left: var(--bs-gutter-x,30px);
+    padding-right: var(--bs-gutter-x,30px);
+    @media #{$large-mobile} {
+      padding-left: var(--bs-gutter-x,20px);
+      padding-right: var(--bs-gutter-x,20px);
+    }
+  }
+}
+
+.hero-slide-thumb {
+  position: absolute;
+  width: calc(50% + 106px);
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  @media #{$laptop-device, $desktop-device} {
+    width: calc(50% + 40px);
+  }
+  @media #{$tablet-device, $large-mobile} {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+  }
+  @media #{$small-mobile} {
+    height: 400px;
+  }
+
+  img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: right;
+    object-position: right;
+    width: 100%;
+    @media #{$laptop-device, $desktop-device, $tablet-device, $large-mobile} {
+      -o-object-position: center;
+      object-position: center;
+    }
+  }
+}
+
+.hero-slide-content {
+  @media #{$tablet-device, $large-mobile} {
+    padding: 50px 0 50px;
+  }
+
+  .hero-slide-sub-title {
+    color: $primary;
+    font-size: 15px;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 24px;
+    @media #{$laptop-device, $desktop-device, $tablet-device, $large-mobile} {
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .hero-slide-title {
+    font-size: 75px;
+    font-weight: $font-weight-bold;
+    line-height: 1.14;
+    max-width: 545px;
+    margin-bottom: 20px;
+    @media #{$laptop-device} {
+      font-size: 64px;
+      margin-bottom: 12px;
+    }
+    @media #{$desktop-device, $tablet-device} {
+      font-size: 42px;
+      margin-bottom: 12px;
+      max-width: 375px;
+    }
+    @media #{$large-mobile} {
+      font-size: 34px;
+      margin-bottom: 12px;
+      max-width: 375px;
+    }
+  }
+
+  .hero-slide-desc {
+    font-size: 23px;
+    line-height: 1.83;
+    max-width: 535px;
+    margin-bottom: 35px;
+    @media #{$laptop-device} {
+      font-size: 22px;
+      line-height: 1.7;
+      max-width: 495px;
+      margin-bottom: 25px;
+    }
+    @media #{$desktop-device, $tablet-device} {
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 405px;
+      margin-bottom: 24px;
+    }
+    @media #{$large-mobile} {
+      font-size: 17px;
+      line-height: 1.7;
+      max-width: 405px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.hero-slide-shape-one {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  width: calc(50% - 106px);
+  height: 100%;
+  z-index: -1;
+  @media #{$laptop-device, $desktop-device} {
+    width: calc(50% - 40px);
+  }
+  @media #{$tablet-device, $large-mobile} {
+    width: 100%;
+  }
+}
+
+.hero-slide-item {
+  &.swiper-slide-active {
+    .hero-slide-content {
+      .hero-slide-sub-title {
+        webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-delay: .8s;
+        animation-delay: .8s;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      .hero-slide-title {
+        webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+        -webkit-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      .hero-slide-desc {
+        webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+        -webkit-animation-delay: 2.2s;
+        animation-delay: 2.2s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      .btn  {
+        webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+        -webkit-animation-delay: 2.6s;
+        animation-delay: 2.6s;
+        -webkit-animation-duration: .8s;
+        animation-duration: .8s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    }
+  }
+}
+
+.hero-video-popup {
+  bottom: 60px;
+  right: calc(100% + 60px);
+
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 70px;
+  height: 70px;
+
+  transition: $transition-base;
+  text-decoration: none;
+
+  color: $primary;
+  border: 2px solid $primary;
+  border-radius: 50%;
+  z-index: -1;
+
+  @media #{$laptop-device} {
+    bottom: 32px;
+    right: calc(100% + 32px);
+  }
+  @media #{$desktop-device, $tablet-device} {
+    bottom: 18px;
+    right: calc(100% + 18px);
+
+    width: 60px;
+    height: 60px;
+  }
+  @media #{$tablet-device, $large-mobile} {
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    @include translate(-50%, -50%);
+    right: auto;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    color: $white;
+    border-color: $white;
+  }
+
+  &:before {
+    content: "";
+    background-color: rgba($primary, .15);
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    z-index: -1;
+    top: -80px;
+    left: -80px;
+    @media #{$laptop-device} {
+      width: 200px;
+      height: 200px;
+      top: auto;
+      left: auto;
+    }
+    @media #{$desktop-device} {
+      width: 150px;
+      height: 150px;
+      top: auto;
+      left: auto;
+    }
+    @media #{$tablet-device, $large-mobile} {
+      width: 120px;
+      height: 120px;
+      top: auto;
+      left: auto;
+      background-color: rgba($primary, .77);
+      z-index: -1;
+    }
+  }
+
+  &:after {
+    border: 1px solid $primary;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    margin-left: -1px;
+    margin-top: -1px;
+    border-radius: 50%;
+    opacity: .5;
+    z-index: -2;
+    @include animation(popup-overlay 1.4s linear infinite);
+    @include transition(all .3s ease-out);
+    @media #{$tablet-device, $large-mobile} {
+      border-color: $white;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    color: $white;
+    background-color: $primary;
+    @media #{$tablet-device, $large-mobile} {
+      @include transform(translate(-50%, -50%) scale(1.1));
+    }
+  }
+
+  & i {
+    font-size: 12px;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-3%, 0, 0);
+    transform: translate3d(-3%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-3%, 0, 0);
+    transform: translate3d(-3%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 40%, 0);
+    transform: translate3d(0, 40%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 40%, 0);
+    transform: translate3d(0, 40%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes popup-overlay {
+  0% {
+    @include scale(1);
+    opacity: 1;
+  }
+  100% {
+    @include scale(1.6);
+    opacity: 0;
+  }
+}

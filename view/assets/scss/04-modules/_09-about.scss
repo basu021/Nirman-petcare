@@ -1,0 +1,92 @@
+/*----------------------------------------*/
+/*  About CSS
+/*----------------------------------------*/
+
+.about-content {
+  margin-top: 18px;
+  @media #{$extraBig-device} {
+    margin-right: -20px;
+  }
+
+  .sub-title {
+    font-size: 15px;
+    margin: 0;
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    @media #{$tablet-device, $large-mobile} {
+      font-size: 14px;
+    }
+
+    & + .title {
+        margin-top: 29px;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+          margin-top: 8px;
+        }
+    }
+  }
+
+  .title {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 1.190;
+
+    margin-bottom: 0;
+    @media #{$laptop-device, $desktop-device} {
+      font-size: 46px;
+    }
+    @media #{$tablet-device} {
+      font-size: 40px;
+    }
+    @media #{$large-mobile} {
+      font-size: 36px;
+    }
+    @media #{$small-mobile} {
+      font-size: 32px;
+    }
+    @media #{$extra-small-mobile} {
+      font-size: 28px;
+    }
+    & + p {
+      margin-top: 34px;
+      @media #{$desktop-device, $tablet-device, $large-mobile} {
+        margin-top: 18px;
+      }
+    }
+  }
+
+  p {
+    font-size: 18px;
+
+    line-height: 1.73;
+
+    margin-bottom: 0;
+    @media #{$extraBig-device} {
+      margin-right: -25px;
+    }
+    @media #{$desktop-device} {
+      font-size: 16px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+      font-size: 15px;
+    }
+
+    + {
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.about-image {
+  @media #{$tablet-device, $large-mobile} {
+    margin-bottom: 30px;
+  }
+
+  & img {
+    @media #{$tablet-device, $large-mobile} {
+      width: 100%;
+    }
+  }
+}

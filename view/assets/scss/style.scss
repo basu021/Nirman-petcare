@@ -1,0 +1,41 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Savest - Animal Shelter Website Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    01 - Helpers (Variables & Mixins)
+    02 - Basic (Typography, Common Classes)
+        01.01 - Typrography
+        01.02 - Common Classes
+    03 - Layout (Header, Footer, Section, Main Container/Wrapper and Page Header Styles)
+        02.01 - Header
+        02.02 - Footer
+        02.03 - Main Content Wrapper, Sections & Section Heading
+    04 - Modules (Template Design Elements as Modules and Third party Plugins Custom Styles)
+        04.01 - Main Banner
+        04.02 - Feature
+        04.03 - Campaign
+        04.04 - Team
+        04.05 - Donation
+        04.06 - Event
+        04.07 - Testimonial
+        04.08 - Blog
+        04.09 - About
+        04.10 - Sidebar
+        04.11 - Not Found
+        04.12 - Account
+        04.13 - Contact
+
+-----------------------------------------------------------------------------------*/
+
+@import "./bootstrap/functions";
+@import "./bootstrap/variables";
+@import "./01-helpers/index";
+@import "./02-basic/index";
+@import "./03-layout/index";
+@import "./04-modules/index";

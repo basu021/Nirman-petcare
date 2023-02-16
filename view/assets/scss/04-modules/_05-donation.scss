@@ -1,0 +1,261 @@
+/*----------------------------------------*/
+/*  Donation Form CSS
+/*----------------------------------------*/
+
+.donation-form-wrap {
+  background-color: $light;
+  padding: 70px;
+  @media #{$tablet-device} {
+    padding: 50px;
+  }
+  @media #{$large-mobile} {
+    padding: 34px;
+  }
+}
+
+.donation-form-title {
+  font-size: 25px;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0;
+  @media #{$desktop-device} {
+    font-size: 20px;
+  }
+  @media #{$tablet-device, $large-mobile} {
+    font-size: 18px;
+  }
+}
+
+.donation-form-select {
+  & input[type="radio"] {
+    & + label, {
+      background-color: #fbf9f6;
+      font-size: 22px;
+      font-weight: $font-weight-medium;
+      display: block;
+      color: #383e38;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      text-align: center;
+      text-transform: capitalize;
+      border: 2px solid #DEDEDE;
+      width: 135px;
+      height: 60px;
+      user-select: none;
+      line-height: 48px;
+      padding: 5px 5px;
+      @media #{$desktop-device, $tablet-device, $large-mobile} {
+        font-size: 18px;
+      }
+      @media #{$extra-small-mobile} {
+        width: 126px;
+      }
+      &:hover {
+        color: $primary;
+        border-color: $primary;
+      }
+    }
+    &:checked + label {
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  .custom-input {
+    background-color: #fbf9f6;
+    font-size: 22px;
+    font-weight: $font-weight-medium;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid #DEDEDE;
+    height: 60px;
+    line-height: 48px;
+    padding: 5px 5px;
+    user-select: none;
+    width: 210px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      font-size: 18px;
+      width: 135px;
+    }
+    @media #{$extra-small-mobile} {
+      width: 126px;
+    }
+    @include placeholder {
+      color: #383e38;
+    }
+    &:hover {
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  & .btn {
+    margin-top: 40px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      margin-top: 20px;
+    }
+  }
+
+  & + {
+    .donation-form-payment {
+      margin-top: 48px;
+      @media #{$tablet-device, $large-mobile} {
+        margin-top: 35px;
+      }
+    }
+  }
+}
+
+.donation2-form-select {
+  & label, .custom-input {
+    @media #{$tablet-device} {
+      width: 102px !important;
+    }
+    @media #{$extra-small-mobile} {
+      width: 100px !important;
+    }
+  }
+
+  & input[type="radio"] {
+    & + label {
+      border: 1px solid #dedede;
+      height: 60px;
+      font-size: 20px;
+      font-weight: $font-weight-medium;
+      width: 100px;
+      @media #{$desktop-device} {
+        height: 55px;
+        font-size: 18px;
+        width: 140px;
+        line-height: 44px;
+      }
+      @media #{$tablet-device, $large-mobile} {
+        height: 50px;
+        font-size: 14px;
+        width: 70px;
+        line-height: 38px;
+      }
+    }
+  }
+
+  .custom-input {
+    border: 1px solid #dedede;
+    height: 60px;
+    font-size: 20px;
+    font-weight: $font-weight-medium;
+    width: 150px;
+    @media #{$desktop-device, $tablet-device} {
+      height: 55px;
+      font-size: 16px;
+      width: 150px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+      height: 50px;
+      font-size: 14px;
+      width: 80px;
+    }
+  }
+}
+
+.donation-form-payment {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  @media #{$large-mobile} {
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  & + {
+    .donation-form {
+      margin-top: 46px;
+      @media #{$tablet-device, $large-mobile} {
+        margin-top: 35px;
+      }
+    }
+  }
+}
+
+.donation-form-payment-card {
+  display: flex;
+
+  & > .donation-form-payment-card-item {
+    display: inline-block;
+    transition: $transition-base;
+    @media #{$large-mobile} {
+      margin-right: 5px;
+    }
+
+    & + {
+      .donation-form-payment-card-item {
+        margin-left: 8px;
+        @media #{$large-mobile} {
+          margin-left: 0;
+        }
+      }
+    }
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+.donation-form {
+  & .form-control {
+    background-color: #fbf9f6;
+    border: 1px solid #dedede;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    color: #131b13;
+    font-size: 16px;
+    height: 58px;
+    padding: 10px 20px 10px;
+    transition: $transition-base;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      font-size: 14px;
+      height: 55px;
+    }
+
+    @include placeholder {
+      color: #131b13;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $primary;
+    }
+  }
+
+  & textarea {
+    &.form-control {
+      padding-top: 19px;
+      height: 220px;
+      resize: none;
+      line-height: 1.3;
+      @media #{$large-mobile, $tablet-device, $large-mobile} {
+        height: 150px;
+      }
+    }
+  }
+
+  & [type="number"] {
+    appearance: none;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+  }
+}
+
+.donation-form-btn {
+  padding: 19px 38px 16px;
+  @media #{$desktop-device} {
+    padding: 13px 28px 13px;
+  }
+  @media #{$tablet-device, $large-mobile} {
+    padding: 10px 18px 10px;
+  }
+}

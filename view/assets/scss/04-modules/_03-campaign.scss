@@ -1,0 +1,223 @@
+/*----------------------------------------*/
+/*  Campaign CSS
+/*----------------------------------------*/
+
+.campaign-item {
+    transition: $transition-base;
+
+    background-color: $white;
+    & .image {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        & img {
+            width: 100%;
+            transition: $transition-base;
+        }
+    }
+    & .content {
+        padding: 38px 43px 38px;
+        @media #{$desktop-device, $large-mobile} {
+            padding: 25px 30px 25px;
+        }
+        & .title {
+            margin-bottom: 20px;
+            @media #{$desktop-device, $large-mobile} {
+                font-size: 22px;
+            }
+            & a {
+                text-decoration: none;
+
+                color: $headings-color;
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+        & .campaign-progress {
+            margin-bottom: 22px;
+            & .progress-info {
+                display: flex;
+                justify-content: space-between;
+
+                margin-bottom: 20px;
+                & p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1;
+
+                    margin: 0;
+
+                    color: $headings-color;
+
+                    @media #{$desktop-device, $large-mobile} {
+                        font-size: 15px;
+                    }
+                    & span {
+                        color: $primary;
+                    }
+                }
+            }
+            & .progress-bar {
+                display: block;
+
+                width: 100%;
+
+                transition: $transition-base;
+
+                background-color: #F0EDE8;
+                & .bar {
+                    display: block;
+
+                    height: 5px;
+
+                    background-color: $primary;
+                }
+            }
+        }
+        & p {
+            margin-bottom: 0;
+
+            line-height: 1.8;
+        }
+    }
+    &:hover {
+        background-color: #F3EEE8;
+        & .image {
+            & img {
+                @include scale(1.05);
+            }
+        }
+        & .content {
+            & .campaign-progress {
+                & .progress-bar {
+                    background-color: $white;
+                }
+            }
+        }
+    }
+}
+
+.campaign2-item-style {
+    background-color: #fbf9f6;
+}
+
+.campaign-details-item {}
+
+.campaign-details-image {
+    & + {
+        & .campaign-details-content {
+            margin-top: 40px;
+        }
+    }
+}
+
+.campaign-details-content {
+    & p {
+        margin-bottom: 24px;
+    }
+}
+
+.campaign-details-title {
+    font-size: 25px;
+    font-weight: $font-weight-bold;
+    line-height: 1.6;
+    @media #{$small-mobile} {
+        font-size: 20px;
+    }
+
+    & + {
+        & .campaign-details-progress {
+            margin-top: 34px;
+        }
+    }
+}
+
+.campaign-details-progress {
+    & .progress-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        @media #{$small-mobile} {
+            flex-direction: column;
+        }
+
+        & p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+
+            margin: 0;
+
+            color: $headings-color;
+
+            @media #{$desktop-device, $large-mobile} {
+                font-size: 15px;
+            }
+            & span {
+                color: $primary;
+            }
+        }
+    }
+    & .progress-bar {
+        display: block;
+
+        width: 100%;
+
+        transition: $transition-base;
+
+        background-color: #F0EDE8;
+
+        & .bar {
+            display: block;
+
+            height: 5px;
+
+            background-color: $primary;
+        }
+    }
+
+    & + {
+        & p {
+            margin-top: 34px;
+        }
+    }
+}
+
+.campaign-details-list {
+    padding-left: 70px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+        padding-left: 0;
+    }
+    & > .campaign-details-list-item {
+        color: $dark;
+        font-size: 19px;
+        font-weight: $font-weight-medium;
+        line-height: 1.8;
+        display: inline-flex;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 15px;
+        }
+
+        & > .icon {
+            color: $primary;
+            font-size: 19px;
+            margin-right: 26px;
+            padding-top: 7px;
+            @media #{$desktop-device, $tablet-device, $large-mobile} {
+                margin-right: 10px;
+                font-size: 16px;
+                padding-top: 5px;
+            }
+        }
+
+        & + {
+            .campaign-details-list-item {
+                margin-top: 15px;
+                @media #{$desktop-device, $tablet-device, $large-mobile} {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

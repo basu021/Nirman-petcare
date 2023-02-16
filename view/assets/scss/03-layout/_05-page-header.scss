@@ -1,0 +1,76 @@
+/*----------------------------------------*/
+/*  Page Header CSS
+/*----------------------------------------*/
+
+.page-header-area {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 150px 0 146px;
+  @media #{$desktop-device} {
+    padding: 120px 0 116px;
+  }
+  @media #{$tablet-device} {
+    padding: 110px 0 106px;
+  }
+  @media #{$large-mobile} {
+    padding: 90px 0 86px;
+  }
+  @media #{$small-mobile} {
+    padding: 80px 0 76px;
+  }
+}
+
+.page-header-title {
+  color: #FFFFFF;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 0;
+  @media #{$desktop-device} {
+    font-size: 55px;
+  }
+  @media #{$tablet-device} {
+    font-size: 45px;
+  }
+  @media #{$large-mobile} {
+    font-size: 35px;
+  }
+  @media #{$small-mobile} {
+    font-size: 25px;
+  }
+}
+
+.breadcrumb-item {
+  color: #fff;
+  font-size: 19px;
+  font-weight: $font-weight-medium;
+  line-height: 1.2;
+  @media #{$desktop-device, $tablet-device, $large-mobile} {
+    font-size: 15px;
+  }
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  + {
+    .breadcrumb-item {
+      padding-left: 18px;
+      @media #{$desktop-device, $tablet-device, $large-mobile} {
+        padding-left: 13px;
+      }
+      &:before {
+        content: var(--bs-breadcrumb-divider,"//");
+        color: #ffffff;
+        padding-right: 17px;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+          padding-right: 12px;
+        }
+      }
+    }
+  }
+}

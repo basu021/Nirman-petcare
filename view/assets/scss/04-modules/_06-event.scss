@@ -1,0 +1,302 @@
+/*----------------------------------------*/
+/*  Event CSS
+/*----------------------------------------*/
+
+.event-item {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: $light;
+
+    &.alt {
+        flex-direction: row-reverse;
+    }
+
+    & .image {
+        overflow: hidden;
+        width: 350px;
+        display: block;
+        @media #{$tablet-device} {
+            width: 273px;
+        }
+        @media #{$large-mobile} {
+            width: 100%;
+        }
+
+        & img {
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -o-object-position: right;
+            object-position: center center;
+            width: 100%;
+            transition: $transition-base;
+        }
+    }
+
+    & .content {
+        display: flex;
+        align-items: center;
+        flex: 1 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        padding: 58px 70px;
+        @media #{$desktop-device} {
+            padding: 36px 38px 38px;
+        }
+        @media #{$tablet-device, $large-mobile} {
+            padding: 31px 33px 33px;
+        }
+        @media #{$extra-small-mobile} {
+            padding: 29px 30px 31px;
+        }
+        & .details {
+            width: 400px;
+            @media #{$tablet-device} {
+                width: 340px;
+            }
+            @media #{$large-mobile} {
+                width: 100%;
+            }
+            & .location,
+            & .date {
+                font-size: 15px;
+                font-weight: 500;
+
+                display: block;
+
+                margin-bottom: 18px;
+
+                color: $headings-color;
+                @media #{$desktop-device, $tablet-device, $large-mobile} {
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                }
+                & span {
+                    color: $primary;
+                }
+            }
+            & .title {
+                font-size: 28px;
+                font-weight: 500;
+
+                margin-bottom: 15px;
+                @media #{$desktop-device, $tablet-device, $large-mobile} {
+                    font-size: 25px;
+                    margin-bottom: 12px;
+                }
+                @media #{$extra-small-mobile} {
+                    font-size: 22px;
+                }
+                & a {
+                    text-decoration: none;
+
+                    color: $headings-color;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+            & p {
+                line-height: 1.77;
+                margin-bottom: 18px;
+                @media #{$desktop-device, $tablet-device, $large-mobile} {
+                    margin-bottom: 10px;
+                }
+            }
+            & .date {
+                margin-bottom: 0;
+                @media #{$desktop-device, $tablet-device, $large-mobile} {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        & .image {
+            & img {
+                @include scale(1.05);
+            }
+        }
+    }
+}
+
+.event2-item-style {
+    & .content {
+        padding: 20px 20px 20px 30px;
+        @media #{$desktop-device} {
+            padding: 20px 30px 20px;
+        }
+        @media #{$tablet-device, $large-mobile} {
+            padding: 30px;
+        }
+
+        & .details {
+            width: 358px;
+            @media #{$desktop-device} {
+                width: 320px;
+            }
+            @media #{$tablet-device, $large-mobile} {
+                width: 100%;
+            }
+        }
+
+        & .button {
+            display: none;
+            @media #{$desktop-device, $tablet-device, $large-mobile} {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.events-details-image {
+    & img {
+        width: 100%;
+    }
+    
+    & + {
+        & .events-details-content {
+            margin-top: 64px;
+            @media #{$desktop-device, $tablet-device, $large-mobile} {
+                margin-top: 44px;
+            }
+            @media #{$tablet-device, $large-mobile} {
+                margin-top: 35px;
+            }
+        }  
+    }
+}
+
+.events-details-content {
+    & .title {
+        font-size: 35px;
+        font-weight: $font-weight-bold;
+        margin-bottom: 0;
+        @media #{$desktop-device, $tablet-device} {
+            font-size: 28px;
+        }
+        @media #{$large-mobile} {
+            font-size: 24px;
+        }
+
+        & + {
+            & p {
+                margin-top: 24px;
+                @media #{$desktop-device, $tablet-device, $large-mobile} {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+
+    & p {
+        font-size: 16px;
+        margin-bottom: 18px;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 15px;
+        }
+    }
+}
+
+.events-details-team-title {
+    font-size: 35px;
+    font-weight: $font-weight-bold;
+    margin-bottom: 39px;
+    margin-top: 26px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+.events-details-info-wrap {
+    background-color: #fbf9f6;
+    padding: 70px;
+    margin: 90px 0 90px;
+    @media #{$desktop-device} {
+        padding: 30px;
+        margin: 60px 0 60px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+        padding: 15px 15px 0;
+        margin: 60px 0 60px;
+    }
+}
+
+.events-details-info-item {
+    background-color: #fff;
+    padding: 64px 69px 57px;
+    height: 100%;
+    @media #{$desktop-device} {
+        padding: 30px 35px 28px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+        padding: 25px 28px 23px;
+        border-bottom: 15px solid #fbf9f6;
+    }
+
+    & .title {
+        font-size: 25px;
+        font-weight: $font-weight-bold;
+        margin-bottom: 32px;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.events-details-info-table {
+    @media #{$small-mobile} {
+        display: block;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    & tr {
+        & .table-name {
+            color: $primary;
+            padding-right: 30px;
+            @media #{$desktop-device, $tablet-device, $large-mobile} {
+                padding-right: 15px;
+            }
+        }
+
+        & .table-velu {
+            padding-left: 30px;
+            @media #{$desktop-device, $tablet-device, $large-mobile} {
+                padding-left: 15px;
+            }
+        }
+
+        &:last-child {
+            & td {
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    & td {
+        padding: 0 0 6px;
+        border: none;
+        box-shadow: none;
+        font-size: 15px;
+        font-weight: $font-weight-medium;
+        color: $dark;
+        line-height: 2.4;
+        vertical-align: initial;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 14px;
+        }
+    }
+}
+
+.events-map-wrap {
+    & iframe {
+        height: 490px;
+        width: 100%;
+    }
+}

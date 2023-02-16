@@ -1,0 +1,97 @@
+/*----------------------------------------*/
+/*  Testimonial CSS
+/*----------------------------------------*/
+
+.testimonial-item {
+    padding: 130px 90px 94px;
+    position: relative;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+        padding: 76px 40px 44px;
+    }
+
+    text-align: center;
+
+    z-index: 3;
+    & .inner {
+        position: relative;
+        z-index: 1;
+    }
+    & .icon {
+        position: absolute;
+        z-index: -1;
+        top: -30px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            width: 90px;
+        }
+    }
+    & p {
+        color: #464646;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 1.67;
+        margin-bottom: 29px;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 19px;
+            margin-bottom: 18px;
+        }
+        @media #{$tablet-device, $large-mobile} {
+           font-size: 16px;
+        }
+    }
+    & .name {
+        font-size: 25px;
+        font-weight: $font-weight-bold;
+        margin-bottom: 20px;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    & .title {
+        font-size: 16px;
+
+        line-height: 1;
+
+        display: block;
+
+        color: $primary;
+        @media #{$desktop-device, $tablet-device, $large-mobile} {
+            font-size: 12px;
+        }
+    }
+}
+
+.testimonial-slider-container {
+    border-bottom: 10px solid $primary;
+    background-color: $white;
+
+    .swiper-wrapper {
+        z-index: 2;
+    }
+}
+
+.testi-border {
+    position: relative;
+    &:before {
+        position: absolute;
+        background-color: #e8eaec;
+        content: "";
+        width: 4px;
+        height: 282px;
+        top: 50%;
+        @include translate(-50%, -50%);
+        left: 50%;
+        z-index: 2;
+        @media #{$desktop-device, $tablet-device} {
+            width: 3px;
+            height: calc(100% - 20%);
+        }
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+}

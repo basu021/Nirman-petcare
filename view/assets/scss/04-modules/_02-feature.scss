@@ -1,0 +1,98 @@
+/*----------------------------------------*/
+/*  Feature CSS
+/*----------------------------------------*/
+
+.feature-item {
+  position: relative;
+  padding: 50px 42px;
+  text-align: center;
+  background-color: $white;
+  @media #{$desktop-device, $tablet-device, $large-mobile} {
+    padding: 30px 22px;
+  }
+
+  &:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 120px;
+    height: 4px;
+    content: "";
+    @include transform(translate(-50%, 0%) scale(0));
+    transition: $transition-base;
+    border-radius: 0 0 4px 4px;
+    background-color: $primary;
+  }
+
+  .icon {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 135px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    transition: $transition-base;
+    color: $primary;
+    border-radius: 50%;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      width: 115px;
+      height: 115px;
+      margin-bottom: 30px;
+    }
+
+    img,
+    svg {
+      width: 63px;
+      height: 56px;
+      color: currentColor;
+
+      &.bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #f3ece6;
+        path {
+          transition: $transition-base;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: 27px;
+    font-weight: $font-weight-medium;
+    margin-bottom: 17px;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      font-size: 24px;
+      margin-bottom: 11px;
+    }
+  }
+
+  .desc {
+    margin-bottom: 0;
+    @media #{$desktop-device, $tablet-device, $large-mobile} {
+      line-height: 1.8;
+    }
+  }
+
+  &:hover {
+    &:after {
+      @include transform(translate(-50%, 0%) scale(1));
+    }
+
+    .icon {
+      color: $white;
+
+      .bg {
+        color: $primary;
+      }
+    }
+  }
+}
