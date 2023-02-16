@@ -37,19 +37,19 @@
                                         <div class="row row-gutter-20 mb-n4">
                                             <div class="col-auto mb-4">
                                                 <input class="visually-hidden" name="donation-value" id="donate-20" type="radio" value="20">
-                                                <label for="donate-20">$20</label>
+                                                <label for="donate-20">₹100</label>
                                             </div>
                                             <div class="col-auto mb-4">
                                                 <input class="visually-hidden" name="donation-value" id="donate-50" type="radio" value="50">
-                                                <label for="donate-50">$50</label>
+                                                <label for="donate-50">₹500</label>
                                             </div>
                                             <div class="col-auto mb-4">
                                                 <input class="visually-hidden" name="donation-value" id="donate-100" type="radio" value="100" checked>
-                                                <label for="donate-100">$100</label>
+                                                <label for="donate-100">₹1000</label>
                                             </div>
                                             <div class="col-auto mb-4">
                                                 <input class="visually-hidden" name="donation-value" id="donate-200" type="radio" value="200">
-                                                <label for="donate-200">$200</label>
+                                                <label for="donate-200">₹2000</label>
                                             </div>
                                             <div class="col-auto mb-4">
                                                 <input class="custom-input" name="donation-value" id="custom" type="number" placeholder="Custom">

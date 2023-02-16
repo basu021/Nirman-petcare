@@ -10,10 +10,10 @@
                                 <a class="footer-widget-logo me-auto me-md-0 ms-auto ms-md-0" href="index.html">
                                     <img src="../assets/images/logo-light.png" width="178" height="58" alt="Logo" />
                                 </a>
-                                <p class="footer-widget-desc me-auto me-md-0 ms-auto ms-md-0">It is a long established fact that reader will be distracted by the readable content.</p>
+                                <p class="footer-widget-desc me-auto me-md-0 ms-auto ms-md-0">Animal Welfare, An innoviative for Helping Animals.</p>
                                 <div class="footer-widget-donars">
                                     <h5 class="donars-title">Worldwide Donar’s:</h5>
-                                    <h3 class="donars-number">9,468K</h3>
+                                    <h3 class="donars-number">9,468+</h3>
                                 </div>
                             </div>
                             <!--== Start: Footer Widget ==-->
@@ -28,10 +28,8 @@
                                         <div id="dividerId-1" class="widget-collapse-body collapse">
                                             <ul class="footer-widget-nav">
                                                 <li><a href="about-us.html">Nonprofit Resources</a></li>
-                                                <li><a href="about-us.html">CSR Made Simple</a></li>
                                                 <li><a href="about-us.html">Corporate Resources</a></li>
                                                 <li><a href="about-us.html">Start an Application</a></li>
-                                                <li><a href="about-us.html">Corporate Gift Cards</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -42,9 +40,7 @@
                                             <ul class="footer-widget-nav">
                                                 <li><a href="about-us.html">Start Donating</a></li>
                                                 <li><a href="about-us.html">Become a Volunteer</a></li>
-                                                <li><a href="about-us.html">Quick Fundraising</a></li>
                                                 <li><a href="about-us.html">Save for Animal</a></li>
-                                                <li><a href="about-us.html">Get Daily Updates</a></li>
                                             </ul>
                                         </div>
                                     </div>
