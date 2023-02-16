@@ -33,7 +33,7 @@
                         <div class="col-lg-8 col-xl-6">
                             <div class="account-form-wrap">
                                 <h3 class="account-form-title">Login</h3>
-                                <form id="account-form" action="#">
+                                <form id="account-form" action="login.php" method="post">
                                     <div class="form-group mb-4">
                                         <input class="form-control" type="text" placeholder="Username">
                                     </div>

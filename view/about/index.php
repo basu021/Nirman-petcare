@@ -87,76 +87,82 @@
         <!--== End: About Section Wrapper ==-->
 
         <!--== Start: Team Section Wrapper ==-->
-        <div class="team-section section section-padding bg-grey">
-            <div class="container">
-                <!--== Start: Section Title ==-->
-                <div class="section-title center mt-n3">
-                    <h2 class="title">Expert Volunteer</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry page when looking</p>
-                    <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
-                </div>
-                <!--== End: Section Title ==-->
-                <div class="row">
-                    <!--== Start: Team ==-->
-                    <div class="col-md-6 col-lg-3 mb-8">
-                        <div class="team-item">
-                            <div class="image">
-                                <img src="../assets/images/team/team-1.jpg" width="280" height="280" alt="Ceyda Ciftci">
+        <div class="team-section section section-padding">
+            <div class="container-fluid team-container-fluid">
+                <div class="row align-items-center justify-content-space-between">
+                    <div class="col-lg-6 team-item-wrap">
+                        <div class="row row-gutter-40 mb-n6 mb-xl-n8">
+                            <!--== Team Start ==-->
+                            <div class="col-sm-6 col-lg-6 mb-6 mb-xl-8">
+                                <div class="team-item">
+                                    <div class="image">
+                                        <img src="../assets/images/team/team-1.jpg" width="280" height="280" alt="Ceyda Ciftci">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="content">
-                                <h4 class="name">Ceyda Ciftci</h4>
-                                <span class="title">Senior Volunteer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--== End: Team ==-->
+                            <!--== Team End ==-->
 
-                    <!--== Start: Team ==-->
-                    <div class="col-md-6 col-lg-3 mb-8">
-                        <div class="team-item">
-                            <div class="image">
-                                <img src="../assets/images/team/team-2.jpg" width="280" height="280" alt="Jonah Brown">
+                            <!--== Team Start ==-->
+                            <div class="col-sm-6 col-lg-6 mb-6 mb-xl-8">
+                                <div class="team-item">
+                                    <div class="image">
+                                        <img src="../assets/images/team/team-2.jpg" width="280" height="280" alt="Jonah Brown">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="content">
-                                <h4 class="name">Jonah Brown</h4>
-                                <span class="title">Senior Volunteer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--== End: Team ==-->
+                            <!--== Team End ==-->
 
-                    <!--== Start: Team ==-->
-                    <div class="col-md-6 col-lg-3 mb-8">
-                        <div class="team-item">
-                            <div class="image">
-                                <img src="../assets/images/team/team-3.jpg" width="280" height="280" alt="dusan jovic">
+                            <!--== Team Start ==-->
+                            <div class="col-sm-6 col-lg-6 mb-6 mb-xl-8">
+                                <div class="team-item">
+                                    <div class="image">
+                                        <img src="../assets/images/team/team-3.jpg" width="280" height="280" alt="dusan jovic">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="content">
-                                <h4 class="name">dusan jovic</h4>
-                                <span class="title">Senior Volunteer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--== End: Team ==-->
+                            <!--== Team End ==-->
 
-                    <!--== Start: Team ==-->
-                    <div class="col-md-6 col-lg-3 mb-8">
-                        <div class="team-item">
-                            <div class="image">
-                                <img src="../assets/images/team/team-4.jpg" width="280" height="280" alt="Anna Bratiychuk">
+                            <!--== Team Start ==-->
+                            <div class="col-sm-6 col-lg-6 mb-6 mb-xl-8">
+                                <div class="team-item">
+                                    <div class="image">
+                                        <img src="../assets/images/team/team-4.jpg" width="280" height="280" alt="Anna Bratiychuk">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="content">
-                                <h4 class="name">Anna Bratiychuk</h4>
-                                <span class="title">Senior Volunteer</span>
-                            </div>
+                            <!--== Team End ==-->
                         </div>
                     </div>
-                    <!--== End: Team ==-->
-                    <div class="col-12 text-center mt-8">
-                        <a href="about-us.html" class="btn btn-dark">Join Our Team</a>
+                    <div class="col-lg-6 team-content-wrap">
+                        <!--== Section Title Start ==-->
+                        <div class="section-title-2 mb-0">
+                            <h6 class="sub-title">BOARD OF VOLUNTEER</h6>
+                            <h2 class="title">We have expert volunteer team.</h2>
+                            <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
+                            <p>It is a long established fact that reader will be distracted by the readable content of a page when looking at it layout using normal distribution opposed.</p>
+                            <a href="about-us.html" class="btn btn-dark">Join Our Team</a>
+                        </div>
+                        <!--== Section Title End ==-->
                     </div>
                 </div>
             </div>
+            <div class="section-bg-img section-bg-img-style2" data-bg-img="../assets/images/photos/bg1.jpg"></div>
         </div>
         <!--== End: Team Section Wrapper ==-->
 
@@ -180,9 +186,9 @@
                                     <div class="testimonial-item bg-grey">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Richelle Askew</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
+                                            <p>"The greatness of a nation and its moral progress can be judged by the way its animals are treated." </p>
+                                            <h4 class="name">Mahadma Gandhi</h4>
+                                            <h5 class="title"></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -193,9 +199,9 @@
                                     <div class="testimonial-item bg-grey">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Fatimah Whitaker</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
+                                            <p>"No animal deserves having its name misused to insult a human being with it."</p>
+                                            <h4 class="name">Ernst R. Hauschka</h4>
+                                            <h5 class="title"></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -206,25 +212,13 @@
                                     <div class="testimonial-item bg-grey">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Martin Geo</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
+                                            <p>"Animal protection is education to humanity." </p>
+                                            <h4 class="name">Albert Schweitzer</h4>
+                                            <h5 class="title"></h5>
                                         </div>
                                     </div>
                                 </div>
                                 <!--== End: Testimonial Title ==-->
-
-                                <!--== Start: Testimonial Title ==-->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item bg-grey">
-                                        <div class="inner">
-                                            <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Tony Jesse</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
-                                        </div>
-                                    </div>
-                                </div>
                                 <!--== End: Testimonial Title ==-->
                             </div>
                         </div>

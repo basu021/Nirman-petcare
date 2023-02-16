@@ -204,62 +204,7 @@
         </div>
         <!--== End: Team Section Wrapper ==-->
 
-        <!--== Start: Donation Section Wrapper ==-->
-        <div class="donation-section section section-padding bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <!--== Start: Section Title ==-->
-                        <div class="section-title-2 mb-0 mb-n2">
-                            <h6 class="sub-title">QUICK DONATION</h6>
-                            <h2 class="title">Save for animals</h2>
-                            <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
-                            <p>It is a long established fact that reader will be distracted by the readable content of a page when looking at layout using normal distribution opposed.</p>
-                        </div>
-                        <!--== End: Section Title ==-->
-                    </div>
-                    <div class="col-lg-6 align-self-center">
-                        <!--== Start: Donation Select Form ==-->
-                        <div class="donation-form-select ms-0 ms-xl-9 mt-10 mt-lg-0">
-                            <form action="#">
-                                <div class="row row-gutter-20 mb-n4">
-                                    <div class="col-auto mb-4">
-                                        <input class="visually-hidden" name="donation-value" id="donate-20" type="radio" value="20">
-                                        <label for="donate-20">$20</label>
-                                    </div>
-                                    <div class="col-auto mb-4">
-                                        <input class="visually-hidden" name="donation-value" id="donate-50" type="radio" value="50">
-                                        <label for="donate-50">$50</label>
-                                    </div>
-                                    <div class="col-auto mb-4">
-                                        <input class="visually-hidden" name="donation-value" id="donate-100" type="radio" value="100" checked>
-                                        <label for="donate-100">$100</label>
-                                    </div>
-                                    <div class="col-auto mb-4">
-                                        <input class="visually-hidden" name="donation-value" id="donate-200" type="radio" value="200">
-                                        <label for="donate-200">$200</label>
-                                    </div>
-                                    <div class="col-auto mb-4">
-                                        <input class="visually-hidden" name="donation-value" id="donate-500" type="radio" value="500">
-                                        <label for="donate-500">$500</label>
-                                    </div>
-                                    <div class="col-auto mb-4">
-                                        <input class="custom-input" name="donation-value" id="custom" type="number" placeholder="Custom">
-                                        <label class="visually-hidden" for="custom">custom</label>
-                                    </div>
-                                </div>
-                                <button type="button" class="btn btn-primary btn-icon-right"><span>Donate Now</span> <i class="icofont-double-right icon"></i></button>
-                            </form>
-                        </div>
-                        <!--== End: Donation Select Form ==-->
-                    </div>
-                </div>
-            </div>
-            <div class="section-pattern-img section-pattern-img-style5">
-                <img src="../assets/images/shape/5.png" width="229" height="241" alt="Image">
-            </div>
-        </div>
-        <!--== End: Donation Section Wrapper ==-->
+        
 
         <!--== Start: Event Section Wrapper ==-->
         <div class="event-section section section-padding">
@@ -311,16 +256,16 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <div class="swiper testimonial-slider-container testi-border mb-0 mb-lg-n2">
+                        <div class="swiper testimonial-slider-container bg-grey testi-border">
                             <div class="swiper-wrapper">
                                 <!--== Start: Testimonial Title ==-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial-item bg-white">
+                                    <div class="testimonial-item bg-grey">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Richelle Askew</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
+                                            <p>"The greatness of a nation and its moral progress can be judged by the way its animals are treated." </p>
+                                            <h4 class="name">Mahadma Gandhi</h4>
+                                            <h5 class="title"></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -328,12 +273,12 @@
 
                                 <!--== Start: Testimonial Title ==-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial-item bg-white">
+                                    <div class="testimonial-item bg-grey">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Fatimah Whitaker</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
+                                            <p>"No animal deserves having its name misused to insult a human being with it."</p>
+                                            <h4 class="name">Ernst R. Hauschka</h4>
+                                            <h5 class="title"></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -341,48 +286,39 @@
 
                                 <!--== Start: Testimonial Title ==-->
                                 <div class="swiper-slide">
-                                    <div class="testimonial-item bg-white">
+                                    <div class="testimonial-item bg-grey">
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
-                                            <p>That necessitat ecommerce platformthat optimi store popularised there’s release was popularised containing maker</p>
-                                            <h4 class="name">Richelle Askew</h4>
-                                            <h5 class="title">CEO, of Kristal Bank</h5>
+                                            <p>"Animal protection is education to humanity." </p>
+                                            <h4 class="name">Albert Schweitzer</h4>
+                                            <h5 class="title"></h5>
                                         </div>
                                     </div>
                                 </div>
                                 <!--== End: Testimonial Title ==-->
-                            </div>
-                        </div>
-                        <div class="testimonial-swiper-pagination text-center d-none mt-10 mb-n2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-pattern-img section-pattern-img-style4">
-                <img src="../assets/images/shape/4.png" width="318" height="291" alt="Image">
-            </div>
-        </div>
-        <!--== End: Testimonial Section Wrapper ==-->
+
+                                
 
         <!--== Start: News Post Section Wrapper ==-->
-        <div class="blog-post-section section section-padding">
+        <!-- <div class="blog-post-section section section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 text-center text-sm-start">
+                    <div class="col-sm-6 text-center text-sm-start"> -->
                         <!--== Start: Section Title ==-->
-                        <div class="section-title mt-n1">
+                        <!-- <div class="section-title mt-n1">
                             <h2 class="sub-title">BLOG POST</h2>
                             <h2 class="title mb-n3">Latest News</h2>
-                        </div>
+                        </div> -->
                         <!--== End: Section Title ==-->
-                    </div>
+                    <!-- </div>
                     <div class="col-sm-6 mb-10 mb-sm-0 mt-0 mt-sm-2 mt-xl-4 text-center text-sm-end">
                         <a class="btn-link" href="blog.html">Other’s Blog Post <i class="icofont-double-right icon"></i></a>
                     </div>
                 </div>
 
-                <div class="row row-gutter-60 mb-n6">
+                <div class="row row-gutter-60 mb-n6"> -->
                     <!--== Start: News Post Item ==-->
-                    <div class="col-md-6 mb-6">
+                    <!-- <div class="col-md-6 mb-6">
                         <div class="post-item">
                             <a href="blog-details.html" class="image">
                                 <img src="../assets/images/blog/image-1.jpg" width="475" height="475" alt="News Post Image">
@@ -401,11 +337,11 @@
                                 <p>Lorem Ipsum is simply dummy textes of them printing and typesetting industry standard</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--== End: News Post Item ==-->
 
                     <!--== Start: News Post Item ==-->
-                    <div class="col-md-6 mb-6">
+                    <!-- <div class="col-md-6 mb-6">
                         <div class="post-item">
                             <a href="blog-details.html" class="image">
                                 <img src="../assets/images/blog/image-2.jpg" width="475" height="475" alt="News Post Image">
@@ -424,7 +360,7 @@
                                 <p>Lorem Ipsum is simply dummy textes of them printing and typesetting industry standard</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--== End: News Post Item ==-->
                 </div>
             </div>
