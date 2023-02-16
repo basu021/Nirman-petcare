@@ -12,7 +12,7 @@
                             <div class="hero-slide-content">
                                 <h2 class="hero-slide-sub-title">PROTECT OUR ANIMAL</h2>
                                 <h1 class="hero-slide-title">Wanting to save the animal.</h1>
-                                <p class="hero-slide-desc">That necetate robust ecommerce platform populars that with the release store.</p>
+                                <p class="hero-slide-desc">Protect, rescue, adopt, repeat. Speak for the voiceless</p>
                                 <a class="btn btn-primary btn-icon-right" href="about-us.html"><span>Learn more</span> <i class="icofont-double-right icon"></i></a>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                             <div class="hero-slide-content">
                                 <h2 class="hero-slide-sub-title">PROTECT OUR ANIMAL</h2>
                                 <h1 class="hero-slide-title">Wanting to save the animal.</h1>
-                                <p class="hero-slide-desc">That necetate robust ecommerce platform populars that with the release store.</p>
+                                <p class="hero-slide-desc">Protect, rescue, adopt, repeat. Speak for the voiceless</p>
                                 <a class="btn btn-primary btn-icon-right" href="about-us.html"><span>Learn more</span> <i class="icofont-double-right icon"></i></a>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
     <img class="svg-inject" src="../assets/images/icons/feature-1.svg" width="63" height="56" alt="Save Animal Life">
   </span>
                             <h4 class="title">Save Animal Life</h4>
-                            <p class="desc">That necessitat ecommerce platform optimi your store problem ecommerce platform</p>
+                            <p class="desc">Take care of an animal, and it will never forget you.</p>
                         </div>
                     </div>
                     <!--== End Feature Item ==-->
@@ -72,7 +72,7 @@
     <img class="svg-inject" src="../assets/images/icons/feature-2.svg" width="63" height="56" alt="Join Volunteer">
   </span>
                             <h4 class="title">Join Volunteer</h4>
-                            <p class="desc">That necessitat ecommerce platform optimi your store problem ecommerce platform</p>
+                            <p class="desc">Be a volunteer be a nice person. Do good have good.</p>
                         </div>
                     </div>
                     <!--== End Feature Item ==-->
@@ -87,7 +87,7 @@
     <img class="svg-inject" src="../assets/images/icons/feature-3.svg" width="63" height="56" alt="Fund Raising">
   </span>
                             <h4 class="title">Fund Raising</h4>
-                            <p class="desc">That necessitat ecommerce platform optimi your store problem ecommerce platform</p>
+                            <p class="desc">Save animals, serve humanity. Be the mouthpiece of the voiceless.</p>
                         </div>
                     </div>
                     <!--== End Feature Item ==-->
@@ -109,8 +109,8 @@
                         <div class="section-title-2 mb-0">
                             <h6 class="sub-title">SAVE ANIMAL FOR EARTH</h6>
                             <h2 class="title">Save animals, Save future.</h2>
-                            <p>It is a long established fact that reader will be distracted by the readable content of a page when looking at it layout using normal distribution opposed.</p>
-                            <p>It is a long established fact that reader will be distracted by the readable content of a page when looking at it layout using normal distribution opposed.</p>
+                            <p>the important fact that animals, like humans, are capable of experiencing a range of emotions and sensations. This underscores the importance of treating animals with kindness, respect, and compassion. We must recognize that they are not objects to be used for our own purposes, but rather sentient beings that deserve to be treated with care and consideration. </p>
+                            <p>By working to save and protect animals, we can ensure that they are able to live full and happy lives, just as we do.</p>
                             <a class="btn btn-primary btn-icon-right" href="about-us.html"><span>Learn more</span> <i class="icofont-double-right icon"></i></a>
                         </div>
                         <!--== Section Title End ==-->
@@ -193,7 +193,7 @@
                             <h6 class="sub-title">BOARD OF VOLUNTEER</h6>
                             <h2 class="title">We have expert volunteer team.</h2>
                             <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
-                            <p>It is a long established fact that reader will be distracted by the readable content of a page when looking at it layout using normal distribution opposed.</p>
+                            <p>Animal care volunteers give their time, energy, and love to support the well-being of animals in need, Whether it's feeding, grooming, or playing with animals, volunteers play a vital role in providing care and comfort to animals who may not have anyone else to turn to. Their contributions are invaluable, and they make a real difference in the lives of animals and the world around us.</p>
                             <a href="about-us.html" class="btn btn-dark">Join Our Team</a>
                         </div>
                         <!--== Section Title End ==-->
@@ -207,19 +207,19 @@
         
 
         <!--== Start: Event Section Wrapper ==-->
-        <div class="event-section section section-padding">
+        <!-- <div class="event-section section section-padding">
             <div class="container">
                 <!--== Start: Section Title ==-->
-                <div class="section-title center mt-n3">
+                <!-- <div class="section-title center mt-n3">
                     <h2 class="title">Recent Event’s</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry page when looking</p>
                     <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
-                </div>
+                </div> --> -->
                 <!--== End: Section Title ==-->
 
-                <div class="row mb-n6">
+                <!-- <div class="row mb-n6"> -->
                     <!--== Start: Event Title ==-->
-                    <div class="col-12 mb-6">
+                    <!-- <div class="col-12 mb-6">
                         <div class="event-item  ">
                             <a href="event-details.html" class="image">
                                 <img src="../assets/images/event/event-1.jpg" width="350" height="315" alt="Fund raising for save forest.">
@@ -236,11 +236,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--== End: Event Title ==-->
-                </div>
+                <!-- </div>
             </div>
-        </div>
+        </div> -->
         <!--== End: Event Section Wrapper ==-->
 
         <!--== Start: Testimonial Section Wrapper ==-->
@@ -249,7 +249,7 @@
                 <!--== Start: Section Title ==-->
                 <div class="section-title center mt-n3">
                     <h2 class="title">Happy Donor’s</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry page when looking</p>
+                    <p>Protect, rescue, adopt, repeat.</p>
                     <span class="shape"><img src="../assets/images/shape/section-title.png" width="99" height="7" alt="Section Title Shape"></span>
                 </div>
                 <!--== End: Section Title ==-->
@@ -375,7 +375,7 @@
                         <div class="divider-content">
                             <h4 class="sub-title">MAKE DONATION</h4>
                             <h2 class="title">You can connect with us</h2>
-                            <p>It is long established fact that reader will distracted readable content of a page when looking layout used.</p>
+                            <p>Feel free to Contact Us :) We are here for you</p>
                         </div>
                     </div>
                     <div class="col-lg-6 text-center text-lg-end">
