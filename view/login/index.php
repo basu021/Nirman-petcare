@@ -45,7 +45,7 @@
                                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                             <label class="form-check-label" for="defaultCheck1">Remember me</label>
                                         </div>
-                                        <a class="lost-password" href="#/">Lost your password?</a>
+                                        <a class="lost-password" href="#/">Forget your password?</a>
                                     </div>
                                     <div class="form-group">
                                         <a class="btn btn-primary w-100" href="my-account.html">Login</a>
