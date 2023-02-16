@@ -19,9 +19,7 @@
                         <div class="hero-slide-shape-one" data-bg-img="../assets/images/slider/slide-bg-color1.jpg"></div>
                         <div class="hero-slide-thumb">
                             <img src="../assets/images/slider/slider1.jpg" width="1208" height="804" alt="Image">
-                            <a data-fancybox data-type="iframe" href="https://player.vimeo.com/video/172601404?autoplay=1" class="hero-video-popup video-popup">
-                                <i class="icofont-ui-play"></i>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="swiper-slide hero-slide-item">
@@ -36,9 +34,8 @@
                         <div class="hero-slide-shape-one" data-bg-img="../assets/images/slider/slide-bg-color1.jpg"></div>
                         <div class="hero-slide-thumb">
                             <img src="../assets/images/slider/slider2.jpg" width="1208" height="804" alt="Image">
-                            <a data-fancybox data-type="iframe" href="https://player.vimeo.com/video/172601404?autoplay=1" class="hero-video-popup video-popup">
-                                <i class="icofont-ui-play"></i>
-                            </a>
+                     
+                            
                         </div>
                     </div>
                 </div>
@@ -233,8 +230,8 @@
                                         <img src="../assets/images/team/team-1.jpg" width="280" height="280" alt="Ceyda Ciftci">
                                     </div>
                                     <div class="content">
-                                        <h4 class="name">Ceyda Ciftci</h4>
-                                        <span class="title">Senior Volunteer</span>
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
                                     </div>
                                 </div>
                             </div>
@@ -247,8 +244,8 @@
                                         <img src="../assets/images/team/team-2.jpg" width="280" height="280" alt="Jonah Brown">
                                     </div>
                                     <div class="content">
-                                        <h4 class="name">Jonah Brown</h4>
-                                        <span class="title">Senior Volunteer</span>
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
                                     </div>
                                 </div>
                             </div>
@@ -261,8 +258,8 @@
                                         <img src="../assets/images/team/team-3.jpg" width="280" height="280" alt="dusan jovic">
                                     </div>
                                     <div class="content">
-                                        <h4 class="name">dusan jovic</h4>
-                                        <span class="title">Senior Volunteer</span>
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
                                     </div>
                                 </div>
                             </div>
@@ -275,8 +272,8 @@
                                         <img src="../assets/images/team/team-4.jpg" width="280" height="280" alt="Anna Bratiychuk">
                                     </div>
                                     <div class="content">
-                                        <h4 class="name">Anna Bratiychuk</h4>
-                                        <span class="title">Senior Volunteer</span>
+                                        <h4 class="name"></h4>
+                                        <span class="title"></span>
                                     </div>
                                 </div>
                             </div>
