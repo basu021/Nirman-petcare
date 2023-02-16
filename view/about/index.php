@@ -9,7 +9,7 @@
 
     <main class="main-content">
         <!--== Start: Page Header Area Wrapper ==-->
-        <div class="section page-header-area" data-bg-img="../assets/images/photos/bg3.jpg">
+        <div class="section page-header-area" data-bg-img="../assets/images/photos/about1.jpg">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-sm-auto text-center text-sm-start">
