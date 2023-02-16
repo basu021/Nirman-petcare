@@ -56,3 +56,4 @@
             </div>
         </div>
         <!--== End: Event Section Wrapper ==-->
+        <?php include "../footer/Footer.php"; ?>

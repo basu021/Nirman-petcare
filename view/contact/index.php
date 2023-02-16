@@ -1,4 +1,30 @@
-<?php include "../header/Header.php"; ?>
+<?php
+include_once "../../controller/db.php";
+$msg=0;
+if(isset($_POST['submit'])) {
+    // Get form data and sanitize inputs
+
+    $name = mysqli_real_escape_string($conn, $_POST["con_name"]);
+    $phone = mysqli_real_escape_string($conn, $_POST["con_phone"]);
+    $email = mysqli_real_escape_string($conn, $_POST["con_email"]);
+    $message = mysqli_real_escape_string($conn, $_POST["con_message"]);
+
+    // Insert data into database
+    $sql = "INSERT INTO contacts (`id`,`name`, `phone`, `email`, `message`) VALUES ('','$name', '$phone', '$email', '$message')";
+
+    if (mysqli_query($conn, $sql)) {
+        $msg = 1;
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+}
+
+// Close database connection
+mysqli_close($conn);
+?>
+
+            
+<?php include "../header/Header.php";  ?>
 
     <!--== Start: Wrapper ==-->
     <div class="wrapper">
@@ -83,12 +109,12 @@
 
                             <!--== Start Contact Form ==-->
                             <div class="contact-form">
-                                <form id="contact-form" action="contact.php" method="POST">
+                                <form id="contact-form" action="index.php" method="POST">
                                     <div class="form-group mb-3 mb-xl-4">
                                         <input class="form-control" type="text" name="con_name" placeholder="Name:">
                                     </div>
                                     <div class="form-group mb-3 mb-xl-4">
-                                        <input class="form-control" type="text" name="con_phone" placeholder="Phone:">
+                                        <input class="form-control" type="tel" name="con_phone" placeholder="Phone:">
                                     </div>
                                     <div class="form-group mb-3 mb-xl-4">
                                         <input class="form-control" type="email" name="con_email" placeholder="Email:">
@@ -97,12 +123,20 @@
                                         <textarea class="form-control" name="con_message" placeholder="Message:"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button class="contact-form-btn btn btn-primary btn-icon-right" type="submit" name="submit"><span>Submit</span> <i class="icofont-double-right icon"></i></button>
+                                        <button class="btn btn-primary btn-icon-right" type="submit" name="submit">Submit</button>
                                     </div>
                                 </form>
 
                                 <!--== Message Notification ==-->
-                                <div class="form-message"></div>
+                                <?php 
+                                if ($msg) {
+                                    ?>
+                                <div class="alert alert-success" role="alert">
+                                    Thanks we will reach you out soon !!
+                                </div>
+                                <?php } ?>
+
+
                             </div>
                             <!--== End Contact Form ==-->
                         </div>
@@ -117,8 +151,6 @@
         </main>
         <?php include "../footer/Footer.php"; ?>
 
-        
-
-            
+   
 
         
