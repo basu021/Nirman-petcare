@@ -10,11 +10,11 @@
                     </li>
                     <li>
                         <span class="icon"><i class="icofont-envelope-open"></i></span>
-                        <a href="mailto://support@gamil.com" class="text">contact@petcare.com</a>
+                        <a href="mailto://contact@petcare.com" class="text">contact@petcare.com</a>
                     </li>
                     <li>
-                        <span class="icon"><i class="icofont-google-map"></i></span>
-                        <span class="text">Technology Corridor, Infocity, Bhubaneswar, Odisha</span>
+                        <span class="icon"><i class="icofont-goTechnology Corridor, Infocity, Bhubaneswar, Odishaogle-map"></i></span>
+                        <span class="text"></span>
                     </li>
                 </ul>
             </div>
