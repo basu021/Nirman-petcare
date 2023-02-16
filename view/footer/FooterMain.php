@@ -65,7 +65,7 @@
                                         </li>
                                         <li>
                                             <i class="icofont-location-pin"></i>
-                                            <p>Technology Corridor, Infocity, Bhubaneswar, Odisha</p>
+                                            <a href="https://goo.gl/maps/t5vnKQqtYrX9HLdP8" class="text">Technology Corridor, Infocity, Bhubaneswar, Odisha</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -89,7 +89,7 @@
                             <a href="mailto://support@gamil.com" class="text">support@gamil.com</a>
                         </li>
                         <li>
-                        <span class="icon"><i class="icofont-google-map"></i></span>
+                        <i class=" icon icofont-google-map"></i>
                         <a href="https://goo.gl/maps/t5vnKQqtYrX9HLdP8" class="text">Technology Corridor, Infocity, Bhubaneswar, Odisha</a>
                         </li>
                         <li>
