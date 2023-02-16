@@ -106,27 +106,6 @@ mysqli_close($conn);
             </section>
             <!--== End Account Area Wrapper ==-->
 
-            <!--== Start: Divider Section Wrapper ==-->
-            <div class="divider-section divider-donation section bg-light">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <div class="divider-content">
-                                <h4 class="sub-title">MAKE DONATION</h4>
-                                <h2 class="title">You can connect with us</h2>
-                                <p>It is long established fact that reader will distracted readable content of a page when looking layout used.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-end">
-                            <a class="btn btn-primary btn-icon-right" href="contact.html"><span>Join Now</span> <i class="icofont-double-right icon"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-pattern-img section-pattern-img-style6">
-                    <img src="../assets/images/shape/6.png" width="131" height="168" alt="Image">
-                </div>
-            </div>
-            <!--== End: Divider Section Wrapper ==-->
         </main>
 
         <?php include "../footer/Footer.php"; ?>

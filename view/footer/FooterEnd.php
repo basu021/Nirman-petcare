@@ -34,9 +34,9 @@
                                 <ul class="sub-menu">
                                     <li><a href="#">Causes Layout</a>
                                         <ul class="sub-menu">
-                                            <li><a href="causes.html">Causes</a></li>
-                                            <li><a href="causes-left-sidebar.html">Causes Left Sidebar</a></li>
-                                            <li><a href="causes-right-sidebar.html">Causes Right Sidebar</a></li>
+                                            <li><a href="#">Causes</a></li>
+                                            <li><a href="#">Causes Left Sidebar</a></li>
+                                            <li><a href="#">Causes Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="causes-details.html">Causes Details</a></li>
@@ -46,9 +46,9 @@
                                 <ul class="sub-menu">
                                     <li><a href="#">Events Layout</a>
                                         <ul class="sub-menu">
-                                            <li><a href="events.html">Events</a></li>
-                                            <li><a href="events-left-sidebar.html">Events Left Sidebar</a></li>
-                                            <li><a href="events-right-sidebar.html">Events Right Sidebar</a></li>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Events Left Sidebar</a></li>
+                                            <li><a href="#">Events Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="event-details.html">Events Details</a></li>
@@ -56,20 +56,20 @@
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="sub-menu">
-                                    <li><a href="donate.html">Donation</a></li>
-                                    <li><a href="my-account.html">Account</a></li>
-                                    <li><a href="account-login.html">Login</a></li>
-                                    <li><a href="account-register.html">Register</a></li>
-                                    <li><a href="page-not-found.html">Page Not Found</a></li>
+                                    <li><a href="#">Donation</a></li>
+                                    <li><a href="#">Account</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Page Not Found</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Blog</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Blog Layout</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog Grid</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                            <li><a href="#">Blog Grid</a></li>
+                                            <li><a href="#">Blog Left Sidebar</a></li>
+                                            <li><a href="#">Blog Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="blog-details.html">Blog Details</a></li>
@@ -89,8 +89,8 @@
                             <a href="mailto://support@gamil.com" class="text">support@gamil.com</a>
                         </li>
                         <li>
-                            <i class="icon icofont-google-map"></i>
-                            <span class="text">Chandrasekharpur, Bhubaneswar</span>
+                        <i class=" icon icofont-google-map"></i>
+                        <a href="https://goo.gl/maps/t5vnKQqtYrX9HLdP8" class="text">Technology Corridor, Infocity, Bhubaneswar, Odisha</a>
                         </li>
                         <li>
                             <i class="icon icofont-clock-time"></i>
