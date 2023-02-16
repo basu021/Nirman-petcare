@@ -34,7 +34,13 @@
                                 <h3 class="account-form-title">Register</h3>
                                 <form id="account-form" action="#">
                                     <div class="form-group mb-4">
+                                        <input class="form-control" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="form-group mb-4">
                                         <input class="form-control" type="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <input class="form-control" type="number" placeholder="Mobile number">
                                     </div>
                                     <div class="form-group mb-4">
                                         <input class="form-control" type="password" placeholder="Password">
