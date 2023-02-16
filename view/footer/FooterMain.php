@@ -27,9 +27,9 @@
                                         <h4 class="collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-1" aria-expanded="false">Resources</h4>
                                         <div id="dividerId-1" class="widget-collapse-body collapse">
                                             <ul class="footer-widget-nav">
-                                                <li><a href="about-us.html">Nonprofit Resources</a></li>
-                                                <li><a href="about-us.html">Corporate Resources</a></li>
-                                                <li><a href="about-us.html">Start an Application</a></li>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Donation</a></li>
+                                                <li><a href="#">Adoption</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -38,9 +38,9 @@
                                         <h4 class="collapsed-title collapsed mt-2" data-bs-toggle="collapse" data-bs-target="#dividerId-2" aria-expanded="false">Qtuick Links</h4>
                                         <div id="dividerId-2" class="widget-collapse-body collapse">
                                             <ul class="footer-widget-nav">
-                                                <li><a href="about-us.html">Start Donating</a></li>
-                                                <li><a href="about-us.html">Become a Volunteer</a></li>
-                                                <li><a href="about-us.html">Save for Animal</a></li>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Sign in</a></li>
+                                                <li><a href="#">Join us</a></li>
                                             </ul>
                                         </div>
                                     </div>
