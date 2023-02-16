@@ -43,7 +43,7 @@
                             <div class="content">
                                 <div class="details">
                                     <span class="location"><span>Addres:</span> Chandrasekharpur, Bhubaneswar</span>
-                                    <h4 class="title"><a href="#">Name: Dr. Amit Kumar (BVSc)</a></h4>
+                                    <h4 class="title"><a href="#">Docter's Name: Dr. Amit Kumar (BVSc)</a></h4>
                                     <p>Dr. Amit Kumar is a veterinary doctor having 15 years of experience in cousulting.</p>
                                     <span class="date">
                                 </div>
@@ -61,9 +61,57 @@
                             <div class="content">
                                 <div class="details">
                                     <span class="location"><span>Addres:</span> Chandrasekharpur, Bhubaneswar</span>
-                                    <h4 class="title"><a href="#">Name: Dr. Santos Biswal (Veterinary surgery and radiology
+                                    <h4 class="title"><a href="#">Doctor's Name: Dr. Santos Biswal (Veterinary surgery and radiology
 )</a></h4>
                                     <p>Dr. Santos Biswal is a veterinary doctor having 15 years of experience in cousulting.</p>
+                                    <span class="date">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--== End: Event Title ==-->
+                </div>
+                
+            </div>
+        </div>
+        <!--== End: Event Section Wrapper ==-->
+
+
+        <br><br>
+<h1 style="text-align:center">Pet Training</h1>
+<div class="event-section section section-padding">
+            <div class="container">
+               
+                <div class="row mb-n6">
+                    <!--== Start: Event Title ==-->
+                    <div class="col-12 mb-6">
+                        <div class="event-item  ">
+                            <a href="#" class="image">
+                                <img src="../assets/images/event/event-1.jpg" width="350" height="315" alt="Fund raising for save forest.">
+                            </a>
+                            <div class="content">
+                                <div class="details">
+                                    <span class="location"><span>Addres:</span> Chandrasekharpur, Bhubaneswar</span>
+                                    <h4 class="title"><a href="#">Trainer Name: Basudev Rout</a></h4>
+                                    <p>Basudev rout has 3 years of experience in Pet Training. </p>
+                                    <span class="date">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--== End: Event Title ==-->
+
+                     <!--== Start: Event Title ==-->
+                     <div class="col-12 mb-6">
+                        <div class="event-item  ">
+                            <a href="#" class="image">
+                                <img src="../assets/images/event/event-1.jpg" width="350" height="315" alt="Fund raising for save forest.">
+                            </a>
+                            <div class="content">
+                                <div class="details">
+                                    <span class="location"><span>Addres:</span> Chandrasekharpur, Bhubaneswar</span>
+                                    <h4 class="title"><a href="#">Trainer Name: Ashutosh Sharma </a></h4>
+                                    <p>Ashutosh Sharma is a Pet Trainer has 3 years of experience in Pet Training</p>
                                     <span class="date">
                                 </div>
                             </div>
