@@ -186,7 +186,7 @@
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
                                             <p>"The greatness of a nation and its moral progress can be judged by the way its animals are treated." </p>
-                                            <h4 class="name">Mahadma Gandhi</h4>
+                                            <h4 class="name">Mahatma Gandhi</h4>
                                             <h5 class="title"></h5>
                                         </div>
                                     </div>
@@ -212,7 +212,7 @@
                                         <div class="inner">
                                             <img src="../assets/images/icons/quote-icon.png" width="144" height="102" alt="quote icon" class="icon">
                                             <p>"Animal protection is education to humanity." </p>
-                                            <h4 class="name">Albert Schweitzer</h4>
+                                            <h4 class="name">Albert Einstein</h4>
                                             <h5 class="title"></h5>
                                         </div>
                                     </div>
