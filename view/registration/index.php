@@ -1,17 +1,17 @@
 <?php
-
-if (isset($_POST['register'])) {
+include_once "../../controller/db.php";
+if (isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($conn, $_POST['name']);
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $mail = mysqli_real_escape_string($conn, $_POST['email']);
     $mobile = mysqli_real_escape_string($conn, $_POST['mobile']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
     $confirm_password = mysqli_real_escape_string($conn, $_POST['confirm_password']);
-    $terms = isset($_POST['terms']);
+    // $terms = isset($_POST['terms']);
 
     // Validate email format
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        die("Invalid email format");
-    }
+    // if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    //     die("Invalid email format");
+    // }
 
     // Validate mobile number format
     if (!preg_match("/^\d{10}$/", $mobile)) {
@@ -27,10 +27,11 @@ if (isset($_POST['register'])) {
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     // Insert user data into user table
-    $query = "INSERT INTO user (name, email, mobile, password) VALUES ('$name', '$email', '$mobile', '$hashed_password')";
+    $query = "INSERT INTO user (`id`,`name`, `email`, `mobile`, `pass`) VALUES ('','$name', '$mail', '$mobile', '$hashed_password')";
     $result = mysqli_query($conn, $query);
     if ($result) {
         echo "User registered successfully";
+        
     } else {
         echo "Error: " . mysqli_error($conn);
     }
@@ -72,21 +73,21 @@ mysqli_close($conn);
                         <div class="col-lg-10 col-xl-7">
                             <div class="account-form-wrap">
                                 <h3 class="account-form-title">Register</h3>
-                                <form id="account-form" action="#">
+                                <form id="account-form" action="index.php" method="POST">
                                     <div class="form-group mb-4">
-                                        <input class="form-control" type="text" placeholder="Name">
+                                        <input class="form-control" type="text" name="name" placeholder="Name">
                                     </div>
                                     <div class="form-group mb-4">
-                                        <input class="form-control" type="email" placeholder="Email">
+                                        <input class="form-control" type="email" name="email" placeholder="Email">
                                     </div>
                                     <div class="form-group mb-4">
-                                        <input class="form-control" type="number" placeholder="Mobile number">
+                                        <input class="form-control" type="number" name="mobile" placeholder="Mobile number">
                                     </div>
                                     <div class="form-group mb-4">
-                                        <input class="form-control" type="password" placeholder="Password">
+                                        <input class="form-control" type="password" name="password" placeholder="Password">
                                     </div>
                                     <div class="form-group mb-5">
-                                        <input class="form-control" type="password" placeholder="Confirm Password">
+                                        <input class="form-control" type="password" name="confirm_password" placeholder="Confirm Password">
                                     </div>
                                     <div class="form-group account-info-group mb-5">
                                         <div class="rememberme-account d-flex align-items-center">
@@ -95,7 +96,7 @@ mysqli_close($conn);
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <a class="btn btn-primary w-100" type="submit" name="submit">Register</a>
+                                        <button class="btn btn-primary w-100" type="submit" name="submit">Register</button>
                                         <p class="register-now mt-5">Have an Account! <a href="../login/index.php">Login</a></p>
                                     </div>
                                 </form>
