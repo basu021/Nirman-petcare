@@ -28,11 +28,11 @@
                     <!-- Mobile Menu Start -->
                     <div class="mobile-menu-items">
                         <ul class="nav-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="../home/index.php">Home</a></li>
+                            <li><a href="../about/index.php">About</a></li>
                             <li><a href="../login/index.php">Sign in</a></li>
                         <li><a href="../Services/index.php">Services</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="../contact/index.php">Contact</a></li>
                         </ul>
                     </div>
                     <!-- Mobile Menu End -->
